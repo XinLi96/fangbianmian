@@ -1,0 +1,39 @@
+/*footer开始*/
+footer{
+    min-height: 250px;
+    background: #2a2a2a;
+}
+@media screen and (max-width: 1170px){
+    footer{
+        width: 1170px;
+    }
+}
+footer .container{
+    width: 1170px;
+}
+footer .footer-list li{
+    font-size: 14px;
+    color: rgb(241, 241, 241);
+    text-align: left;
+    margin-bottom: 10px;
+}
+footer .col-md-4{
+    position: relative;
+}
+footer .footer-list{
+    margin-top: 60px;
+}
+footer .container .footer-first-list{
+    text-indent:120px;
+}
+footer .container .footer-second-list,footer .container .footer-third-list{
+    margin-top: 75px;
+}
+footer .footer-second-list li{
+    text-align: center;
+}
+footer .footer-third-list li{
+    text-align: right;
+    margin-right: 60px;
+}
+/*footer结束*/

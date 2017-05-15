@@ -1,0 +1,83 @@
+/*******init css style begin************/
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style: none;
+}
+a:link{
+    text-decoration:none;
+}
+a:visited{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+a:active{
+    text-decoration:none;
+}
+img{
+    border: 0;
+}
+/**********init css style end***********/
+#nav{
+    height: 114px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.item{
+    width: 20%;
+    float: left;
+    height: 100%;
+}
+.item .item-content{
+    display: block;
+    height: 64px;
+    margin: 25px auto 0;
+    width: 72px;
+    position: relative;
+}
+.item .item-content-img{
+    width: 32px;
+    height: 32px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.news-icon{
+    display: block;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 18px;
+    background-color: #fff;
+    border: 1px solid #65dcbe;
+    color: #65dcbe;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    border-radius: 50%;
+}
+.item .item-content-title{
+    text-align: center;
+    margin-top: 10px;
+    color: #263943;
+}
+#all-icon{
+    background-image: url(../img/inter_appo_nav/all.png);
+}
+#order-icon{
+    background-image: url(../img/inter_appo_nav/order.png);
+}
+#ongoing-icon{
+    background-image: url(../img/inter_appo_nav/ongoing.png);
+}
+#success-icon{
+    background-image: url(../img/inter_appo_nav/success.png);
+}
+#cancle-icon{
+    background-image: url(../img/inter_appo_nav/cancle.png);
+}

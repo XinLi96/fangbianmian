@@ -1,0 +1,486 @@
+*{
+    font-family: 微软雅黑;
+}
+#contant {
+    width: 100%;
+    background: white;
+    padding-top: 70px;
+
+}
+.container{
+    padding:0px;
+}
+.row{
+    margin: 0px;
+    width: 100%;
+}
+#search{
+    width: 100%;
+    height: 80px;
+    background: #eff3f5;
+    text-align: center;
+}
+#search .search-box{
+    display: inline-block;
+    text-align: center;
+    height: 60px;
+    margin-top: 10px;
+    width: 90%;
+    border: 1px solid #5ce1a8;
+    border-radius: 10px;
+    background: white;
+}
+#search .search-icon{
+    display: inline-block;
+    text-align: center;
+    height: 56px;
+    line-height: 56px;
+    background: white;
+    float: left;
+    border-radius: 10px;
+    font-size: 28px;
+    font-weight: 100;
+    color: #646473;
+    /*cursor: pointer;*/
+}
+#search .line{
+    height: 36px;
+    width: 1px;
+    background:#cdcdd5;
+    float: right;
+    margin-top: 10px;
+}
+#search input{
+    display: inline-block;
+    /*text-align: center;*/
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    color: #646473;
+    text-indent: 10px;
+}
+input::-ms-input-placeholder{
+    text-align: center;
+}
+input::-webkit-input-placeholder{
+    text-align: center;
+}
+input::-moz-placeholder{
+    text-align: center;
+}
+#search .col-xs-2 {
+    padding: 0px;
+}
+#search .col-xs-10{
+    padding: 0px;
+}
+#search .col-xs-11{
+    padding: 0px;
+}
+#company-list{
+    height: 160px;
+    /*background: pink;*/
+    border-bottom: solid 1px #eff3f5;
+}
+#company-list .company-icon{
+    height: 140px;
+    width: 140px;
+    /*width: 210px;*/
+    /*background: url(../img/mycollect_iv/logo.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    display: inline-block;
+    border: solid 2px #eff3f5;
+    line-height: 140px;
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+}
+#company-list .company-icon img{
+    display: inline-block;
+    margin: 0 auto;
+}
+#company-list .col-xs-3{
+    text-align: center;
+    padding: 0px;
+    height: 160px;
+    line-height: 160px;
+}
+#interpolate .dec{
+    height: 2px;
+    width: 100%;
+    background-color: #5ce1a8;
+    margin-top: -2px;
+}
+#interpolate .tab{
+    background: white;
+    font-size: 24px;
+    line-height: 65px;
+    text-align: center;
+    padding: 0px;
+    border: solid 1px #eff3f5;
+}
+#interpolate .tab1{
+    color: #82888c;
+    padding: 0px;
+    height: 65px;
+}
+#interpolate .tab2{
+    color: #5ce1a8;
+    padding: 0px;
+    height: 65px;
+}
+/*#interpolate .col-xs-6{*/
+    /*padding: 0px;*/
+    /*height: 65px;*/
+/*}*/
+#interpolate .chevron-down1{
+    background: url(../img/note_interpolate/chevron-down1.jpg);
+    width: 15px;
+    height: 9px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#interpolate .chevron-down2{
+    background: url(../img/note_interpolate/chevron-down2.jpg);
+    width: 15px;
+    height: 9px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#interpolate .pic{
+    height: 210px;
+    display: inline-block;
+    border: solid 1px #eff3f5;
+    float: left;
+    line-height: 210px;
+    text-align: center;
+}
+#interpolate .pic img{
+    display: inline-block;
+}
+#interpolate .sentence{
+    /*width: 400px;*/
+    height: 210px;
+    border-bottom: solid 1px #eff3f5;
+    float: right;
+}
+#interpolate .company{
+    font-size: 26px;
+    color: #4b565c;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+#interpolate .cut{
+    font-size: 26px;
+    color: #4b565c;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+}
+#interpolate .position{
+    font-size: 26px;
+    color: #4b565c;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline-block;
+    position: relative;
+}
+#interpolate .skill{
+    font-size: 24px;
+    color: #4e6174;
+    font-weight: 500;
+    margin-bottom: 5px;
+    /*margin-top: 10px;*/
+    margin-left: 10px;
+}
+#interpolate .degree{
+    font-size: 22px;
+    color: #6f7d8b;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 10px;
+    display: inline-block;
+}
+#interpolate .price{
+    font-size: 26px;
+    color: #f86e6f;
+    font-weight: 500;
+    margin-left: 100px;
+    display: inline-block;
+    font-weight: bolder;
+}
+#interpolate .unit{
+    font-size: 20px;
+    /*color: #fcacad;*/
+    font-weight: 500;
+    /*margin-top: 10px;*/
+    display: inline-block;
+}
+#interpolate .button{
+    height: 56px;
+    /*background: pink;*/
+    bottom: 0px;
+    position: absolute;
+    font-size: 24px;
+    text-align: center;
+    line-height: 56px;
+}
+#interpolate .col-xs-8{
+    padding: 0px;
+}
+#interpolate .ch-resume{
+    border: solid 2px #5ce1a8;
+    color: #5ce1a8;
+}
+#interpolate .help-inter{
+    background: #5ce1a8;
+    border: solid 2px #45cf94;
+    color: white;
+}
+#interpolate .row {
+    margin-bottom: 1px;
+}
+#interpolate .adver{
+    width: 100%;
+    height: 120px;
+    background: url(../img/note_interpolate/adver.jpg);
+    display: inline-block;
+    text-align: center;
+    line-height: 120px;
+}
+#interpolate .be-iv{
+    width: 180px;
+    height: 45px;
+    background:rgba(255, 255, 255, 0.6)!important;
+    filter:Alpha(opacity=60);
+    text-align: center;
+    line-height: 45px;
+    font-size: 20px;
+    border-radius: 5px;
+    /*opacity: 0.2;*/
+    /*filter:alpha(opacity：20);*/
+    color: #324656;
+    position: static;
+    display: inline-block;
+}
+#interpolate .be-iv p{
+    color: #324656;
+    position: relative;
+    font-size: 20px;
+}
+#interpolate .adver span{
+    font-size: 25px;
+    color: white;
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+@media screen and (max-width: 622px){
+#interpolate .price{
+    margin-left: 0px;
+    float: right;
+    margin-top: 3px;
+    }
+}
+@media screen and (max-width: 580px){
+    #company-list .company-icon{
+        height: 115px;
+        width: 115px;
+        line-height: 115px;
+    }
+}
+@media screen and (max-width: 479px){
+    #search{
+        height: 60px;
+    }
+    #search .search-box{
+        height: 40px;
+    }
+    #search .search-icon{
+        height: 36px;
+        line-height: 36px;
+        font-size: 20px;
+    }
+    #search .line{
+        height: 26px;
+        margin-top: 5px;
+    }
+    #search input{
+        height: 36px;
+    }
+    #company-list{
+        height: 120px;
+    }
+    #company-list .company-icon{
+        height: 90px;
+        width: 90px;
+        line-height: 90px;
+    }
+    #company-list .col-xs-3{
+        height: 120px;
+        line-height: 120px;
+    }
+    #interpolate .tab1{
+        height: 35px;
+    }
+    #interpolate .tab2{
+        height: 35px;
+    }
+    #interpolate .tab{
+        font-size: 16px;
+        line-height: 35px;
+    }
+    #interpolate .chevron-down1{
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #interpolate .chevron-down2{
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #interpolate .pic{
+        height: 140px;
+    }
+    #interpolate .sentence {
+        height: 140px;
+    }
+    #interpolate .company{
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #interpolate .cut{
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #interpolate .position{
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #interpolate .skill{
+        font-size: 16px;
+    }
+    #interpolate .degree {
+        font-size: 14px;
+    }
+    #interpolate .price{
+        font-size: 16px;
+        margin-left: 0px;
+        float: right;
+        margin-top: 7px;
+    }
+    #interpolate .unit{
+        font-size: 10px;
+    }
+    #interpolate .pic{
+        line-height: 140px;
+
+    }
+    #interpolate .adver{
+        height: 90px;
+        line-height: 90px;
+    }
+    #interpolate .be-iv{
+        width: 120px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+    #interpolate .be-iv p{
+        font-size: 16px;
+    }
+    #interpolate .adver span{
+        font-size: 20px;
+    }
+    #interpolate .button{
+        height: 36px;
+        font-size: 16px;
+        line-height: 36px;
+    }
+}
+@media screen and (max-width: 385px){
+    #company-list{
+        height: 90px;
+    }
+    #company-list .company-icon{
+        height: 70px;
+        width: 70px;
+        line-height: 70px;
+    }
+    #company-list .col-xs-3{
+        height: 90px;
+        line-height: 90px;
+    }
+    #interpolate .tab1{
+        height: 30px;
+    }
+    #interpolate .tab2{
+        height: 30px;
+    }
+    #interpolate .tab{
+        font-size: 12px;
+        line-height: 30px;
+    }
+    #interpolate .chevron-down1{
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #interpolate .chevron-down2{
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #interpolate .pic{
+        height: 120px;
+    }
+    #interpolate .sentence {
+        height: 120px;
+    }
+    #interpolate .company{
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #interpolate .cut{
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #interpolate .position{
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #interpolate .skill{
+        font-size: 12px;
+    }
+    #interpolate .degree {
+        font-size: 10px;
+    }
+    #interpolate .price{
+        font-size: 14px;
+        margin-left: 0px;
+        float: right;
+        margin-top: 10px;
+    }
+    #interpolate .unit{
+        font-size: 12px;
+    }
+    #interpolate .pic{
+        line-height: 120px;
+    }
+    #interpolate .button{
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+}

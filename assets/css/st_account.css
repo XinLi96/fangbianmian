@@ -1,0 +1,151 @@
+*{
+    font-family: 微软雅黑;
+}
+#contant {
+    /*width: 100%;*/
+    background: #eff3f5;
+    /*overflow: hidden;*/
+   padding-top: 30px;
+
+}
+@media screen and (max-width: 1170px){
+#contant  {
+     width: 1170px;
+}
+}
+#contant .container {
+    /*background: red;*/
+    padding: 0;
+    width: 1170px;
+}
+#setting{
+    background: white;
+    width: 730px;
+    height: 790px;
+    float: right;
+    padding: 0;
+}
+#dec{
+    height: 15px;
+    background-image: url(../img/st_account/dec.jpg);
+}
+#setting .headline{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+#setting .wrapper{
+    width: 389px;
+    margin-left: 107px;
+}
+#binding{
+    width: 248px;
+    display:inline;
+}
+#identity{
+    width: 248px;
+    display:inline;
+}
+.btn-right{
+    width: 128px;
+    float: right;
+}
+#setting .wrapper{
+    float: left;
+}
+#setting .wrapper input{
+    height: 45px;
+    background-color: #f5f5f5;
+    border-radius: 0;
+    border: 0;
+}
+#setting .wrapper button{
+    height: 45px;
+    background-color: #c9f5e2;
+    color: #2eaf78;
+    font-weight: bold;
+    border-radius: 0;
+    border:0;
+}
+#setting .wrapper .checkbox{
+    height: 45px;
+    line-height: 45px;
+    padding-left: 120px;
+   margin-bottom: -10px;
+    margin-top: -20px;
+}
+#setting .wrapper label{
+    color: #8c9c95;
+}
+#setting .portrait{
+    width: 125px;
+    float: right;
+    /*background: pink;*/
+    float: right;
+    margin-right: 87px;
+}
+#setting .portrait-img{
+    height:128px;
+    width: 125px;
+    background-color: #f5f5f5;
+}
+#setting .portrait-img span{
+    font-size: 40px;
+    display: block;
+    height: 128px;
+    line-height: 128px;
+    text-align: center;
+    color: #d2d2d2;
+    font-weight: lighter;
+}
+#setting .portrait label{
+    text-align: center;
+    display: block;
+    color: #8c9c95;
+    height: 20px;
+    line-height: 20px;
+}
+#setting .wrapper .cancel{
+    height: 47px;
+    width: 179px;
+    display: block;
+    background-color: white;
+    color: #8e8e8e;
+    font-weight: bold;
+    text-align: center;
+    line-height: 47px;
+    float: right;
+    /*margin-right: -170px;*/
+}
+#setting .wrapper .reset{
+    height: 47px;
+    width: 179px;
+    background-color: #5ce1a8;
+    color: white;
+    margin-right: -140px;
+    float: right;
+}
+#setting .name{
+    padding-top: 2px;
+    padding-left: 30px;
+    font-size: 12px;
+
+}
+.name-pic{
+    background-image: url(../img/iv_register/icon.jpg);
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-bottom: -2px;
+}
+#setting .form-group button{
+    outline: none;
+}
+#setting .wrapper button{
+    outline: none;
+}
+
+

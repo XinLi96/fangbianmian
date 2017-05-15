@@ -1,0 +1,217 @@
+/*******init css style begin************/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+ul, ol{
+    list-style: none;
+}
+a:link{
+    text-decoration:none;
+}
+a:visited{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+a:active{
+    text-decoration:none;
+}
+img{
+    border: 0;
+}
+.wrapper{
+    width: 88%;
+    margin: 0 auto;
+}
+.separator-bar{
+    height: 15px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+/**********init css style end***********/
+
+/**********order-info begin*************/
+#order-info{
+    font-size: 26px;
+}
+.order-info-content-item{
+    border-bottom: 1px solid #dddde0;
+    padding: 30px 0;
+}
+.order-info-content-item:last-child{
+    border: none;
+}
+#order-basic-info{
+    padding: 20px 0;
+}
+#order-basic-info p{
+    margin-bottom: 30px;
+}
+#order-basic-info p:last-child{
+    margin-bottom: 0;
+}
+.item-title{
+    color: #081424;
+}
+.item-info{
+    text-align: right;
+    max-width: 70%;
+    display: inline-block;
+    float: right;
+}
+.three-word-title{
+    letter-spacing: 13px;
+}
+.green-word{
+    color: #20ac70;
+}
+.remark{
+    color: #617083;
+}
+/**********order-info end***************/
+
+/**********pay-info begin***************/
+#pay-info{
+    margin-bottom: 42px;
+}
+#pay-info .separator-bar{
+    height: 55px;
+    line-height: 55px;
+}
+#payment-type-title{
+    font-size: 22px;
+    color: #081424;
+}
+ #pay-info .pay-type-item{
+    height: 95px;
+    color: #081424;
+    text-align: center;
+    line-height: 95px;
+    font-size: 26px;
+     position: relative;
+     cursor: pointer;
+}
+#pay-info .select{
+    color: #45cf94;
+    border: 1px solid #45cf94;
+}
+#pay-type-wrapper{
+    border-bottom: 2px solid #dddde0;
+    margin-bottom: 30px;
+}
+#pay-info .pay-type-icon{
+    display: inline-block;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #dedee1;
+    position: relative;
+    left: -80px;
+}
+#pay-info .pay-type-inner-icon{
+    display: none;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    border: 4px solid #45cf94;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -6px;
+    margin-left: -6px;
+}
+#pay-info .select .pay-type-inner-icon{
+    display: block;
+}
+#pay-button{
+    height: 76px;
+    line-height: 76px;
+    text-align: center;
+    background-color: #5be0a7;
+    border: 1px solid #34c486;
+    width: 100%;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-bottom: 26px;
+}
+#back{
+    color: #93939c;
+    font-size: 22px;
+}
+/**********pay-info end*****************/
+/**********medial query begin************/
+@media (max-width: 641px) {
+    #order-info{
+        font-size: 24px;
+    }
+    .three-word-title{
+        letter-spacing: 11px;
+    }
+    #pay-info .pay-type-item{
+        font-size: 24px;
+    }
+    #payment-type-title{
+        font-size: 22px;
+    }
+    #pay-info .pay-type-icon{
+        left: -60px;
+    }
+    #pay-button{
+        font-size: 22px;
+    }
+    #back{
+        font-size: 20px;
+    }
+}
+@media (max-width: 481px){
+    #order-info{
+        font-size: 22px;
+    }
+    .three-word-title{
+        letter-spacing: 10px;
+    }
+    #pay-info .pay-type-item{
+        font-size: 22px;
+    }
+    #payment-type-title{
+        font-size: 20px;
+    }
+    #pay-info .pay-type-icon{
+        left: -40px;
+    }
+    #pay-button{
+        font-size: 20px;
+    }
+    #back{
+        font-size: 18px;
+    }
+}
+@media (max-width: 321px){
+    #order-info{
+        font-size: 18px;
+    }
+    .three-word-title{
+        letter-spacing: 9px;
+    }
+    #pay-info .pay-type-item{
+        font-size: 18px;
+    }
+    #payment-type-title{
+        font-size: 16px;
+    }
+    #pay-info .pay-type-icon{
+        left: -30px;
+    }
+    #pay-button{
+        font-size: 18px;
+    }
+    #back{
+        font-size: 16px;
+    }
+}
+/**********medial query end**************/

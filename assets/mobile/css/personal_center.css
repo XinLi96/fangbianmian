@@ -1,0 +1,300 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+@media screen and (max-width: 319px){
+	.container{
+		margin:0 auto;
+		width: 100%;
+		height: 1010px;
+		/*border: 1px solid black;*/
+	}
+	.personal-label{
+		width: 100%;
+		height: 140px;
+	}
+	.personal-label .label-container{
+		height: 140px;
+	}
+	.head-sculpture{
+		border-radius: 100px;
+		/*margin-left: 35px;*/
+		/*margin-right: 35px;*/
+		width: 60px;
+		height: 60px;
+		border: 12px solid #e0f4fa;
+		margin-top:35px;
+		/*vertical-align: middle;*/
+
+
+		float: left;
+	}
+	.editor-img{
+		width: 25px;
+		height: 25px;
+	}
+	.personal-label-contents{
+		width:60%;
+		height: 140px;
+		/*display: inline;*/
+		float: right;
+		color:#737b7e;
+	}
+	.personal-label-content{
+		margin-top: 46px;
+		margin-bottom: 30px;
+		color: #5c5c70;
+	}
+	/*.personal-label .personal-label-content span{
+        display: block;
+    }*/
+
+	.personal-label .personal-label-right{
+		color: #6bdba9;
+		float: right;
+	}
+	.personal-label .personal-label-right img{
+		vertical-align:middle;
+	}
+	.container .label{
+		height: 40px;
+		width: 100%;
+		background: #f2f2f2;
+		line-height: 40px;
+	}
+	.container .label-container{
+		width: 80%;
+		/*height: 60px;*/
+		margin:0 auto;
+	}
+	.container .label-left{
+		float: left;
+		color: #4a4a53;
+	}
+	.container .label-right{
+		float: right;
+		color: #49d599;
+	}
+	.container .label-right img{
+		vertical-align:middle;
+		margin-top: -5px;
+	}
+
+	.container .label-contents span{
+		display: block;
+	}
+	.container .label-content{
+		margin-left: 40px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		color: #4a4a53;
+	}
+	#time{
+		line-height: 40px;
+		float: right;
+		height: 40px;
+		width: 60%;
+		margin-top: 5px;
+		text-align: right;
+		outline: none;
+		border: none;
+		font-size: large;
+	}
+}
+@media screen and (min-width: 320px) and (max-width: 479px){
+	.container{
+		margin:0 auto;
+		width: 100%;
+	}
+	.personal-label{
+		width: 100%;
+		height: 140px;
+	}
+	.personal-label .label-container{
+		height: 140px;
+	}
+	.head-sculpture{
+		border-radius: 100px;
+		/*margin-left: 35px;*/
+		/*margin-right: 35px;*/
+		width: 20%;
+		height: 40%;
+		border: 12px solid #e0f4fa;
+		margin-top:35px;
+		/*vertical-align: middle;*/
+
+
+		float: left;
+	}
+	.editor-img{
+		width: 25px;
+		height: 25px;
+	}
+	.personal-label-contents{
+		width:65%;
+		height: 140px;
+		/*display: inline;*/
+		float: right;
+		color:#737b7e;
+	}
+	.personal-label-content{
+		margin-top: 46px;
+		margin-bottom: 30px;
+		color: #5c5c70;
+	}
+	/*.personal-label .personal-label-content span{
+		display: block;
+	}*/
+
+	.personal-label .personal-label-right{
+		color: #6bdba9;
+		float: right;
+	}
+	.personal-label .personal-label-right img{
+		vertical-align:middle;
+	}
+	.miaoshu{
+		font-size: medium;
+	}
+	.container .label{
+		height: 50px;
+		width: 100%;
+		background: #f2f2f2;
+		line-height: 50px;
+		font-size: large;
+	}
+	.container .label-container{
+		width: 80%;
+		/*height: 60px;*/
+		margin:0 auto;
+		font-size: large;
+	}
+	.container .label-left{
+		float: left;
+		color: #4a4a53;
+	}
+	.container .label-right{
+		float: right;
+		color: #49d599;
+	}
+	.container .label-right img{
+		vertical-align:middle;
+		margin-top: -5px;
+	}
+
+	.container .label-contents span{
+		display: block;
+	}
+	.container .label-content{
+		margin-left: 40px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		color: #4a4a53;
+		font-size: large;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 768px){
+	.container{
+		margin:0 auto;
+		width: 100%;
+
+	}
+	.personal-label{
+		width: 100%;
+	}
+	.personal-label .label-container{
+		height: 180px;
+		font-size: xx-large;
+	}
+	.head-sculpture{
+		border-radius: 100px;
+		/*margin-left: 35px;*/
+		/*margin-right: 35px;*/
+		width: 100px;
+		height: 100px;
+		border: 12px solid #e0f4fa;
+		margin-top:35px;
+		/*vertical-align: middle;*/
+
+
+		float: left;
+	}
+	.editor-img{
+		width: 50px;
+		height: 50px;
+	}
+	.personal-label-contents{
+		width:70%;
+		height: 140px;
+		/*display: inline;*/
+		float: right;
+		color:#737b7e;
+		font-size: xx-large;
+	}
+	.personal-label-content{
+		margin-top: 46px;
+		margin-bottom: 30px;
+		color: #5c5c70;
+
+	}
+	/*.personal-label .personal-label-content span{
+		display: block;
+	}*/
+
+	.personal-label .personal-label-right{
+		color: #6bdba9;
+		float: right;
+	}
+	.personal-label .personal-label-right img{
+		vertical-align:middle;
+	}
+	.miaoshu{
+		font-size: large;
+	}
+	.container .label{
+		height: 140px;
+		width: 100%;
+		background: #f2f2f2;
+		line-height: 140px;
+		font-size: xx-large;
+
+	}
+	.container .label-container{
+		width: 80%;
+		/*height: 60px;*/
+		margin:0 auto;
+	}
+	.container .label-left{
+		float: left;
+		color: #4a4a53;
+	}
+	.container .label-right{
+		float: right;
+		color: #49d599;
+	}
+	.container .label-right img{
+		vertical-align:middle;
+		margin-top: -5px;
+	}
+
+	.container .label-contents span{
+		display: block;
+		font-size: xx-large;
+
+	}
+	.container .label-content{
+		margin-left: 40px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		color: #4a4a53;
+	}
+}

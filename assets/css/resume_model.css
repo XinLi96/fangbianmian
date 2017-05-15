@@ -1,0 +1,70 @@
+
+/***********简历弹层开始************/
+.consume-dialog-item{
+    border-bottom: 1px solid #d2d4d5;
+}
+#job-seekers-name{
+    position: relative;
+}
+#job-seekers-name-info{
+    width: 520px;
+    float: left;
+}
+.job-seekers-name-info-item{
+    width: 250px;
+    display: inline-block;
+}
+#job-seekers-name-head{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 8px solid #d6effe;
+}
+.remark-content{
+    line-height: 30px;
+}
+#consume-dialog-footer{
+    padding: 20px 0;
+}
+#consume-dialog-footer-left{
+    width: 420px;
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+#consume-dialog-footer-right{
+    width: 260px;
+    float: right;
+}
+#consume-dialog-price{
+    margin-bottom: 20px;
+    float: right;
+}
+.money{
+    font-size: 30px;
+    color: #f86e6f;
+}
+.money-unit{
+    font-size: 14px;
+    color: #f86e6f;
+}
+#consume-dialog-btn-group{
+    height: 42px;
+    line-height: 42px;
+}
+#consume-dialog-footer-right .order-modal-submit{
+    position: static;
+    float: right;
+}
+#consume-dialog-footer-right .back{
+    position: static;
+}
+.modal-open {
+    overflow: initial !important;
+}
+/***********简历弹层结束************/

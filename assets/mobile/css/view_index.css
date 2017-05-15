@@ -1,0 +1,768 @@
+html,body{
+    margin: 0 ;
+    padding: 0;
+}
+/**header开始**/
+#til{
+    height: 70px;
+    width: 100%;
+}
+#header{
+    width: 100%;
+    height: 70px;
+    padding-bottom: 0;
+}
+#header #header-search{
+    width: 90%;
+    margin-left: 5%;
+    height: 56px;
+    background: #f7f7f8;
+    padding: 0;
+   /*margin: 0;*/
+    border: 2px solid #e1e4e5;
+    border-radius: 10px;
+}
+#header-span{
+    width: 17%;
+    height: 52px;
+    float: left;
+    padding: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+#header-ipt{
+    border:0;
+    width: 83%;
+    height: 52px;
+    float: right;
+    padding: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: #b7b7be;
+    font-size: 20px;
+    text-indent: 19%;
+    background: #f7f7f8;
+}
+#search-img{
+    color: #cdcdd5;
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 17px;
+    cursor: pointer;
+}
+/**header结束**/
+/**banner开始**/
+#banner{
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 4px solid #eff3f5;
+    position: relative;
+    overflow: hidden;
+}
+#banner img{
+  float: left;
+}
+#imgs{
+    position: absolute;
+    left: 0;
+}
+#tab{
+    list-style: none;
+    position: absolute;
+    bottom: 16px;
+    width: 90px;
+    margin-left: 45%;
+    /*background: red;*/
+    padding: 0;
+
+}
+.tab-li{
+    width: 8px;
+    height: 8px;
+    display: block;
+    background: white;
+    border-radius: 50%;
+    margin-right: 20%;
+    float: left;
+    opacity: .5;
+    z-index: 2;
+}
+#tab .selected{
+    opacity: 1;
+}
+/**banner结束**/
+/**teacher开始**/
+#teacher{
+
+    width: 100%;
+    margin: 0 auto;
+    clear: both;
+
+}
+#teacher-head{
+    height: 65px;
+    width: 100%;
+
+}
+.span{
+    display: block;
+    /*width: 152px;*/
+    width: 23%;
+    height: 31px;
+    background: white;
+    border-bottom: 1px solid #9ba8b8;
+
+}
+.span-left{
+    /*margin-left:70px ;*/
+    margin-left: 10%;
+    float: left;
+}
+.span-middle{
+    /*width: 116px;*/
+    width: 25%;
+    height: 27px;
+    display: inline-block;
+    font-size: 28px;
+    color: #375172;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 8px;
+    font-family: "Lantinghei SC";
+    font-weight: 500;
+
+}
+.span-right{
+    /*margin-right:70px ;*/
+    margin-right: 10%;
+    float: right;
+
+}
+#teacher-ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+}
+#teacher-ul .teacher-li{
+    /*width: 150px;*/
+    width: 23%;
+    /*height: 190px;*/
+    height: 120%;
+    background: white;
+    margin-left:1.5%;
+    float: left;
+    margin-bottom: 16px;
+    border: 1px solid #dfe6ea;
+}
+.teacher-li img{
+    /*width: 148px;*/
+    /*height: 158px;*/
+    width: 100%;
+    height: 84%;
+}
+
+
+#teacher-ul .li-p{
+    /*height: 16px;*/
+    height: 20%;
+    /*width: 148px;*/
+    width: 100%;
+    padding: 0;
+    display: block;
+    font-size: 10px;
+    color: #233b5a;
+    text-align: center;
+    margin-bottom:0px;
+
+}
+
+/**teacher结束**/
+/**student开始**/
+#student{
+    border-top: 4px solid #eff3f5;
+    width: 100%;
+
+    clear: both;
+    margin: 0 auto;
+}
+#student-head{
+    height: 65px;
+    width: 100%;
+}
+.student-content{
+    width: 88%;
+    height: 122px;
+    /*background: red;*/
+    margin-left: 6%;
+    border-radius: 50px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 14px;
+}
+.circle-div-left{
+    width: 101px;
+    height: 101px;
+    border-radius: 50%;
+    margin-left: 1%;
+    margin-top: 12px;
+    float: left;
+    background: url("../img/view_index/student2.png") no-repeat;
+}
+.circle-div-right{
+    width: 101px;
+    height: 101px;
+    margin-right: 1%;
+    border-radius: 50%;
+    margin-top: 12px;
+    float: right;
+    background: url("../img/view_index/student2.png") no-repeat;
+}
+.circle-div img{
+    width: 100%;
+    /*height: 101px;*/
+    height: 100%;
+}
+.content-h2-left{
+    display: block;
+    /*width: 392px;*/
+    width: 61%;
+    height: 34px;
+    margin-left: 21%;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #404651;
+}
+.content-h2-right{
+    display: block;
+    width: 61%;
+    height: 34px;
+
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-size: 20px;
+    color: #404651;
+    float: right;
+}
+.content-p-left{
+    display: block;
+    /*width: 392px;*/
+    width: 61%;
+    /*height: 76px;*/
+    margin-left: 21%;
+    font-size: 16px;
+    color: #7d8084;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.content-p-right{
+    display: block;
+    /*width: 392px;*/
+    width: 61%;
+    font-size: 16px;
+    color: #7d8084;
+    float: right;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/**studeent结束**/
+/**company开始**/
+#company{
+    border-top: 4px solid #eff3f5;
+    width: 100%;
+    margin: 0 auto;
+}
+#company-head{
+    height: 65px;
+    width: 100%;
+
+}
+#company-ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    height:210px ;
+}
+.company-li{
+    width: 17%;
+    background: white;
+    margin-left:1.5%;
+    float: left;
+    margin-bottom: 16px;
+    border: 1px solid #dfe6ea;
+}
+.company-li-first{
+    width: 17%;
+    background: white;
+    margin-left:3%;
+    float: left;
+    margin-bottom: 16px;
+    border: 1px solid #dfe6ea;
+}
+.company-li img{
+    width: 100%;
+    height: 100%;
+}
+.company-li-first img{
+    width: 100%;
+    height: 100%;
+}
+/**company结束**/
+@media screen  and (min-width: 480px) and (max-width: 768px) {
+    /*#teacher-ul .li-p{*/
+        /*font-size: 16px;*/
+        /*height: 35px;*/
+        /*line-height: 35px;*/
+    /*}*/
+    #til-midlle {
+        font-size: 24px;
+    }
+    #header{
+
+        height: 83px;
+        padding-top: 9px;
+        margin-bottom: 9px;
+    }
+    #header #header-search{
+        margin-left: 5%;
+        height: 67px;
+
+    }
+    #header-span{
+        height: 62px;
+    }
+    #header-ipt{
+        height: 62px;
+        font-size: 20px;
+    }
+    #search-img{
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    /**header结束**/
+
+    #company-head{
+
+        height: 76px;
+    }
+    #teacher-head{
+        /*height: 65px;*/
+        height: 76px;
+    }
+
+    .span{
+        /*height: 31px;*/
+        height: 40px;
+
+
+    }
+
+    .span-middle{
+        /*height: 27px;*/
+        height: 40px;
+        font-size: 24px;
+
+        margin-top: 20px;
+
+    }
+
+    #teacher-ul{
+        list-style: none;
+        padding: 0;
+    }
+    #teacher-ul .teacher-li{
+        /*height: 190px;*/
+        /*height: 192px;*/
+        margin-bottom: 19px;
+    }
+    .teacher-li img{
+        /*width: 148px;*/
+        /*height: 158px;*/
+        width: 100%;
+        /*height: 160px;*/
+    }
+    .teacher-li-first img{
+        width: 100%;
+        /*height: 190px;*/
+    }
+
+
+    #teacher-ul .li-p{
+        /*height: 16px;*/
+        height: 32px;
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    /**student开始**/
+    #student-head{
+        height: 76px;
+    }
+    .student-content{
+        height: 120px;
+        margin-bottom: 16px;
+    }
+    .circle-div-left{
+        width: 101px;
+        height: 101px;
+        margin-top: 10px;
+        background-size: contain;
+    }
+    .circle-div-right{
+        width: 101px;
+        height: 101px;
+        margin-top: 10px;
+        background-size: contain;
+    }
+    .circle-div img{
+        width: 101px;
+        height: 101px;
+    }
+    .content-h2-left{
+        height: 40px;
+        margin-top: 14px;
+        margin-bottom: 0;
+        font-size: 20px;
+
+    }
+    .content-h2-right{
+        height: 40px;
+        margin-top: 14px;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .content-p-left{
+        font-size: 14px;
+    }
+    .content-p-right{
+        font-size: 14px;
+    }
+    /**studeent结束**/
+    #company-ul {
+        height: 162px;
+
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    #til-midlle {
+        font-size: 20px;
+    }
+    #header {
+
+        height: 52px;
+        padding-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    #header #header-search {
+        margin-left: 5%;
+        height: 42px;
+
+    }
+
+    #header-span {
+        height: 39px;
+    }
+
+    #header-ipt {
+        height: 36px;
+        font-size: 16px;
+
+    }
+
+    #search-img {
+        font-size: 16px;
+        margin-top: 9px;
+    }
+
+    /**header结束**/
+    .content-p-left {
+        font-size: 10px;
+    }
+
+    .content-p-right {
+        font-size: 10px;
+        /*margin-right: 110px;*/
+    }
+
+    #company-head {
+        /*height: 65px;*/
+
+        height: 48px;
+    }
+
+    #teacher-head {
+        /*height: 65px;*/
+        height: 44px;
+    }
+
+    #student-head {
+        height: 48px;
+    }
+
+    .span {
+        /*height: 31px;*/
+        height: 22px;
+
+    }
+
+    .span-middle {
+        /*height: 27px;*/
+        height: 22px;
+        font-size: 16px;
+
+        margin-top: 7px;
+
+    }
+
+    #teacher-ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #teacher-ul .teacher-li {
+        /*height: 190px;*/
+        /*height: 120px;*/
+        margin-bottom: 12px;
+    }
+
+    .teacher-li img {
+        /*width: 148px;*/
+        /*height: 158px;*/
+        width: 100%;
+        /*height: 100px;*/
+    }
+
+    .teacher-li-first img {
+        width: 100%;
+        /*height: 118px;*/
+    }
+
+    #teacher-ul .li-p {
+        /*height: 16px;*/
+        /*height: 20px;*/
+        font-size: 6px;
+        margin-top: 1px;
+    }
+
+    /**student开始**/
+    #student-head {
+        height: 48px;
+    }
+
+    .student-content {
+        height: 91px;
+        margin-bottom: 10px;
+    }
+
+    .circle-div-left {
+        width: 75px;
+        height: 75px;
+        margin-top: 9px;
+        background-size: contain;
+    }
+
+    .circle-div-right {
+        width: 75px;
+        height: 75px;
+        margin-top: 9px;
+        background-size: contain;
+    }
+
+    .circle-div img {
+        width: 75px;
+        height: 75px;
+    }
+
+    .content-h2-left {
+        height: 25px;
+        margin-top: 9px;
+        margin-bottom: 0;
+        font-size: 12px;
+
+    }
+
+    .content-h2-right {
+        height: 25px;
+        margin-top: 9px;
+        margin-bottom: 0;
+        font-size: 12px;
+    }
+
+    .content-p-left {
+        font-size: 10px;
+    }
+
+    .content-p-right {
+        font-size: 10px;
+    }
+
+    /**studeent结束**/
+    #company-ul {
+        height: 108px;
+
+    }
+
+    @media screen and (max-width: 320px) {
+        #til-midlle {
+            font-size: 18px;
+        }
+        #header {
+
+            height: 35px;
+            padding-top: 4px;
+            margin-bottom: 4px;
+        }
+
+        #header #header-search {
+            margin-left: 5%;
+            height: 28px;
+
+        }
+
+        #header-span {
+            height: 26px;
+        }
+
+        #header-ipt {
+            height: 24px;
+            font-size: 12px;
+
+        }
+
+        #search-img {
+            font-size: 12px;
+            margin-top: 4px;
+        }
+
+        /**header结束**/
+        .content-p-left {
+            font-size: 8px;
+        }
+
+        .content-p-right {
+            font-size: 8px;
+            /*margin-right: 110px;*/
+        }
+
+        #company-head {
+            /*height: 65px;*/
+
+            height: 32px;
+        }
+
+        #teacher-head {
+            /*height: 65px;*/
+            height: 32px;
+        }
+
+        .span {
+            /*height: 31px;*/
+            height: 15px;
+
+        }
+
+        .span-middle {
+            /*height: 27px;*/
+            height: 15px;
+            font-size: 16px;
+
+            margin-top: 5px;
+
+        }
+
+        #teacher-ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #teacher-ul .teacher-li {
+            /*height: 190px;*/
+            /*height: 95px;*/
+            margin-bottom: 8px;
+        }
+
+        .teacher-li img {
+            /*width: 148px;*/
+            /*height: 158px;*/
+            width: 100%;
+            /*height: 78px;*/
+        }
+
+        .teacher-li-first img {
+            width: 100%;
+            /*height: 93px;*/
+        }
+
+        #teacher-ul .li-p {
+            /*height: 16px;*/
+            /*height: 17px;*/
+            font-size: 6px;
+            margin-top: 0px;
+        }
+
+        /**student开始**/
+        #student-head {
+            height: 32px;
+        }
+
+        .student-content {
+            height: 61px;
+            margin-bottom: 7px;
+        }
+
+        .circle-div-left {
+            width: 50px;
+            height: 50px;
+            margin-top: 6px;
+            background-size: contain;
+        }
+
+        .circle-div-right {
+            width: 50px;
+            height: 50px;
+            margin-top: 6px;
+            background-size: contain;
+        }
+
+        .circle-div img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .content-h2-left {
+            height: 17px;
+            margin-top: 6px;
+            margin-bottom: 0;
+            font-size: 8px;
+
+        }
+
+        .content-h2-right {
+            height: 17px;
+            margin-top: 6px;
+            margin-bottom: 0;
+            font-size: 8px;
+        }
+
+        .content-p-left {
+            font-size: 8px;
+        }
+
+        .content-p-right {
+            font-size: 8px;
+        }
+
+        /**studeent结束**/
+        #company-ul {
+            height: 72px;
+
+        }
+
+    }
+}

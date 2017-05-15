@@ -1,0 +1,79 @@
+*{
+    font-family: 微软雅黑;
+}
+#contant {
+    /*width: 100%;*/
+    background: #eff3f5;
+    /*overflow: hidden;*/
+    padding-top: 30px;
+
+}
+@media screen and (max-width: 1170px){
+    #contant  {
+        width: 1170px;
+    }
+}
+#contant .container {
+    /*background: red;*/
+    padding: 0;
+    width: 1170px;
+}
+#no-order{
+    height: 706px;
+    /*background-color: pink;*/
+    width: 730px;
+    float: right;
+}
+#no-order .input-group{
+    height: 40px;
+    width: 530px;
+    /*display: inline-block;*/
+    /*text-align: center;*/
+    margin-left: 100px;
+    border-radius: 5px;
+    border: 1px #dfe6ea;
+}
+#no-order .input-group input{
+    height: 40px;
+    width: 390px;
+}
+#no-order .input-group span{
+    height: 40px;
+    width: 140px;
+    /*display: inline-block;*/
+
+}
+#no-order .input-group button{
+    height: 40px;
+    width: 140px;
+    background-color: #79e5b7;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    outline: none;
+}
+#no-order .sentence{
+    font-size: 18px;
+    height: 30px;
+    width: 333px;
+    /*background-color: blue;*/
+    text-align: center;
+    margin-top: 70px;
+    margin-left: 200px;
+    color: #6f848f;
+}
+#no-order .sentence span{
+    font-weight: lighter;
+}
+#no-order .search-iv{
+    width: 174px;
+    height: 40px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bold;
+    color: #23c17d;
+    border: solid #57d69f 1px;
+    margin-left: 272px;
+    margin-top: 25px;
+    outline: none;
+}

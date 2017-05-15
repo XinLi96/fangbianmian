@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #f2f2f2;
+}
+#container-top{
+    width: 100%;
+    height: 148px;
+    background: #fff;
+    border-bottom:1px solid #e1e1e1;
+}
+.container-top-left{
+    width: 22%;
+    height: 148px;
+    float: left;
+}
+.container-top-left img{
+    width: 75px;
+    height: 75px;
+    margin-left: 25%;
+    margin-top: 28px;
+}
+.container-top-right{
+    width: 78%;
+    height: 148px;
+    float: right;
+}
+.h2{
+    margin-top: 28px;
+    font-family: "宋体";
+    font-size: 26px;
+    color: #40404f;
+    margin-right: 7%;
+}
+.p{
+    margin-top: 5px;
+    display: block;
+    font-family: "宋体";
+    font-size: 22px;
+    color: #c2c1c1;
+    margin-right: 7%;
+
+}
+#container-middle{
+    height: 348px;
+    width: 100%;
+    margin-top: 13px;
+    background: #fff;
+    border:1px solid #e1e1e1;
+}
+.container-middle-left{
+    width: 22%;
+    height: 349px;
+    float: left;
+}
+.container-middle-left img{
+    width: 75px;
+    height: 75px;
+    margin-left: 25%;
+    margin-top: 28px;
+}
+.container-middle-right{
+    width: 78%;
+    height: 349px;
+    float: right;
+}
+.cmrbottom-left{
+    margin-top: 30px;
+    margin-left: 14%;
+    border-radius: 10px;
+    height: 52px;
+    width: 36%;
+    border:1px solid #34c486;
+    float: left;
+    text-align: center;
+    line-height: 52px;
+    color: #3cc58a;
+
+}
+.cmrbottom-right{
+    width: 36%;
+    border-radius: 10px;
+    height: 52px;
+    margin-top: 30px;
+    float: left;
+    margin-left: 5%;
+    border:1px solid #34c486;
+    text-align: center;
+    line-height: 52px;
+    color: #3cc58a;
+    margin-right: 5%;
+
+}
+#container-bottom{
+    width: 100%;
+    height: 148px;
+    margin-top: 13px;
+    background: #fff;
+    border-bottom:1px solid #e1e1e1;
+}
+.container-bottom-left{
+    width: 22%;
+    height: 148px;
+    float: left;
+}
+.container-bottom-left img{
+    width: 75px;
+    height: 75px;
+    margin-left: 25%;
+    margin-top: 28px;
+}
+.container-bottom-right{
+    width: 78%;
+    height: 148px;
+    float: right;
+}
+.h2{
+    font-family: "宋体";
+    font-size: 26px;
+    color: #40404f;
+}
+.p{
+    display: block;
+    font-family: "宋体";
+    font-size: 22px;
+    color: #c2c1c1;
+
+}
+@media screen and (max-width: 319px){
+    .h2{
+        font-size: 15px;
+    }
+    .p{
+        font-size: 15px;
+    }
+    .container-top-left img{
+        width: 50px;
+        height: 50px;
+        margin-left: 15%;
+    }
+    .container-middle-left img{
+        width: 50px;
+        height: 50px;
+        margin-left: 15%;
+    }
+    .container-bottom-left img{
+        width: 50px;
+        height: 50px;
+        margin-left: 15%;
+    }
+    .cmrbottom-left{
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .cmrbottom-right{
+        height: 30px;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 479px){
+    .h2{
+        font-size: 20px;
+    }
+    .p{
+        font-size: 15px;
+    }
+    .container-top-left img{
+        width: 50px;
+        height: 50px;
+        margin-left: 15%;
+    }
+    .container-middle-left img{
+        width: 50px;
+        height: 50px;
+        margin-left: 15%;
+    }
+    .container-bottom-left img{
+        width: 50px;
+        height: 50px;
+        margin-left: 15%;
+    }
+    #container-middle{
+        height: 300px;
+    }
+    .container-middle-left{
+        height: 300px;
+    }
+    .container-middle-right{
+        height: 300px;
+    }
+    .cmrbottom-left{
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .cmrbottom-right{
+        height: 30px;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+}
+@media screen and (min-width: 480px) and (max-width: 768px){
+    .h2{
+        font-size: 25px;
+    }
+    .p{
+        font-size: 20px;
+    }
+    .container-top-left img{
+        width: 70px;
+        height: 70px;
+        margin-left: 20%;
+    }
+    .container-middle-left img{
+        width: 70px;
+        height: 70px;
+        margin-left: 20%;
+    }
+    .container-bottom-left img{
+        width: 70px;
+        height: 70px;
+        margin-left: 20%;
+    }
+    .cmrbottom-left{
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        font-size: 15px;
+    }
+    .cmrbottom-right{
+        height: 30px;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+    }
+}
+

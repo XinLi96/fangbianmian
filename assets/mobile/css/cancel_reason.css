@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+#header{
+    height: 73px;
+    width: 100%;
+    background: black;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    line-height:73px;
+}
+
+#contant{
+    height: 626px;
+    width: 100%;
+    background: white;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+}
+.first{
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+    line-height: 80px;
+}
+.list input{
+    border:none;
+    margin-left: 40px;
+    font-size: 20px;
+    height: 40px;
+    width: 40%;
+    font-family: "微软雅黑";
+}
+input:focus{
+    outline: none;
+}
+input::input-placeholder{
+    color: #394350;
+}
+input::-webkit-input-placeholder{
+    color: #394350;
+}
+input:-moz-placeholder{
+    color: #394350;
+}
+input::-moz-placeholder{
+    color: #394350;
+}
+input:-ms-input-placeholder{
+    color: #394350;
+}
+li{
+    height: 80px;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    font-family: "微软雅黑";
+    line-height: 80px;
+}
+li img{
+    margin-left: 20px;
+}
+ul span{
+    margin-left: 55px;
+}
+.inside{
+    width: 100%;
+    height: 313px;
+    border-bottom: 1px solid #ccc;
+}
+textarea{
+    border:none;
+    height: 293px;
+    width: 100%;
+    font-size: 20px;
+    /*	margin-left: 90px;*/
+    margin-top: 20px;
+
+}
+
+.dianji{
+    margin-top: 20px;
+    cursor: pointer;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    background:#5be0a7;
+    color:#fff;
+    font-family: "微软雅黑";
+    border-radius: 7px;
+}
+
+.cancel{
+
+    margin-top: 26px;
+    font-size: 20px;
+}
+.cancel a:hover{
+    color: #5be0a7;
+}
+a{
+    text-decoration: none;
+    outline:none;
+    color: #93939c;
+}
+
+@media screen and (min-width: 319px){
+    .list input{
+        font-size: 20px;
+    }
+    /*	#contant{
+            height: 458px;
+        }*/
+    textarea{
+        font-size: 20px;
+    }
+
+    .cancel{
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 768px){
+
+    .list input{
+        font-size: 25px;
+    }
+    .wrapper li{
+        height: 100px;
+        line-height: 100px;
+    }
+    .wrapper .first{
+        height: 110px;
+        line-height: 110px;
+    }
+    textarea{
+        font-size: 25px;
+        height: 200px;
+        margin-top: 50px;
+    }
+    .wrapper .inside{
+        height: 450px;
+    }
+    #header{
+        height: 110px;
+        font-size: 25px;
+        line-height: 110px;
+
+    }
+    .dianji{
+        height: 70px;
+        font-size: 25px;
+        line-height: 70px;
+        margin-top: 50px;
+
+    }
+
+    a{
+        font-size: 25px;
+    }
+    .cancel{
+        margin-top: 40px;
+    }
+
+}

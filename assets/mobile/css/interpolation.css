@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul ,li{
+    list-style: none;
+}
+.container{
+    width: 100%;
+    /*background: #ccc;*/
+
+}
+.wrapper{
+    width: 100%;
+    /* height: 1800px;*/
+    margin: 0 auto;
+    /*background-color: pink;*/
+}
+.zhuti{
+    margin-top: 30px;
+    position: relative;
+}
+.interpolation-details{
+    width:84%;
+    background: #fff;
+    margin: 0 auto;
+}
+#interpolation{
+    width: 100%;
+    height: 80px;
+    /*line-height: 100px;
+*/
+}
+#interpolation1{
+    width:100%;
+    height: 80px;
+    /*line-height: 150px;*/
+    border-bottom: 2px solid #ccc;
+
+}
+.interpolation-left{
+    font-size: 44px;
+    font-family: "微软雅黑";
+    color: rgb(88, 91, 102);
+    /* margin-top: 35px;*/
+    position: absolute;
+    float: left;
+}
+.interpolation-right{
+    font-size: 44px;
+    font-family: "微软雅黑";
+    color: rgb(88, 91, 102);
+    /* margin-top: 35px;*/
+
+    float: right;
+}
+#interpolation2{
+    width: 100%;
+    height: 180px;
+    /* margin-top: 35px;*/
+    /*border-top: 2px solid #ccc;*/
+    border-bottom: 2px solid #ccc;
+}
+#interpolation3{
+    width: 100%;
+    height: 286px;
+    margin-top: 38px;
+    border-bottom: 2px solid #ccc;
+    /*padding-top: 20px;*/
+}
+.beizhu{
+    width: 57.8%;
+    height: 25px;
+    font-size: 44px;
+    font-family: "微软雅黑";
+    color: rgb(88, 91, 102);
+    float: right;
+}
+#agree{
+    width: 100%;
+    /*height: 100px;*/
+    text-align: center;
+    /*margin-top: 60px;*/
+}
+#agree .check{
+    width: 52px;
+    height: 52px;
+    border:1px solid rgb(73, 213, 153);
+    background-color: rgb(255, 255, 255);
+}
+#agree .already-agree{
+    font-size: 40px;
+    font-family: "微软雅黑";
+    color:rgba(196, 207, 215, 0.761);
+}
+
+#btn .return{
+    font-size: 40px;
+    font-family: "微软雅黑";
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 150px;
+    background: #5be0a7;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    border:1px solid #34c486;
+}
+.details-bottom{
+    width: 100%;
+    /*height: 100px;*/
+    line-height: 60px;
+}
+.return{
+    font-size: 44px;
+    font-family: "微软雅黑";
+    color: rgb(147, 147, 156);
+    float: left;
+    cursor: pointer;
+}
+.delete{
+    font-size: 40px;
+    font-family: "微软雅黑";
+    color: rgb(147, 147, 156);
+    float: right;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    #interpolation{
+        font-size: 32px;
+    }
+    #interpolation1{
+        font-size: 32px;
+
+    }
+    #interpolation2{
+        height: 100px;
+        line-height: 100px;
+        font-size: 30px;
+
+    }
+    #interpolation3{
+        font-size: 32px;
+
+    }
+    #interpolation .interpolation-left{
+        font-size: 32px;
+    }
+    #interpolation1 .interpolation-left{
+        font-size: 32px;
+    }
+    #interpolation2 .interpolation-left{
+        font-size: 32px;
+    }
+    #interpolation .interpolation-right{
+        font-size: 30px;
+    }
+    #interpolation1 .interpolation-right{
+        font-size: 32px;
+
+    }
+    #interpolation2 .interpolation-right{
+        font-size: 32px;
+
+    }
+    #interpolation3 .interpolation-left{
+        font-size: 32px;
+    }
+    #interpolation3 .beizhu{
+        font-size: 32px;
+        line-height: 50px;
+    }
+    #agree{
+        width: 100%;
+        height: 60px;
+        margin-top: 30px;
+    }
+    #agree .check{
+        width: 42px;
+        height: 42px;
+    }
+    #agree .already-agree{
+        font-size: 30px;
+    }
+    #btn .return{
+        width: 100%;
+        height: 100px;
+    }
+    .return{
+        font-size:30px;
+    }
+    .delete{
+        font-size:30px;
+    }
+}
+@media screen and (max-width: 480px){
+    #interpolation{
+        font-size: 18px;
+        height: 50px;
+    }
+    #interpolation1{
+        font-size: 18px;
+        height: 50px;
+
+    }
+    #interpolation2{
+        height: 70px;
+        line-height: 70px;
+        font-size: 18px;
+
+    }
+    #interpolation3{
+        font-size: 18px;
+
+    }
+    #interpolation .interpolation-left{
+        font-size: 18px;
+        height: 50px;
+
+    }
+    #interpolation1 .interpolation-left{
+        font-size: 18px;
+        height: 50px;
+
+    }
+    #interpolation2 .interpolation-left{
+        font-size: 18px;
+        height: 20px;
+
+    }
+    #interpolation .interpolation-right{
+        font-size: 18px;
+
+    }
+    #interpolation1 .interpolation-right{
+        font-size: 18px;
+
+    }
+    #interpolation2 .interpolation-right{
+        font-size: 18px;
+
+    }
+    #interpolation3 .interpolation-left{
+        font-size: 18px;
+    }
+    #interpolation3 .beizhu{
+
+        font-size: 18px;
+        line-height: 50px;
+    }
+    #agree{
+        width: 100%;
+        height: 60px;
+        margin-top: 20px;
+    }
+    #agree .check{
+        width: 22px;
+        height: 22px;
+    }
+    #agree .already-agree{
+        font-size: 20px;
+    }
+    #btn .return{
+        width: 100%;
+        height: 50px;
+        font-size: 24px;
+    }
+
+    .return{
+        font-size:20px;
+    }
+    .delete{
+        font-size:20px;
+    }
+}
+@media screen and (max-width: 320px){
+    #interpolation{
+        font-size: 16px;
+        height: 30px;
+    }
+    #interpolation1{
+        font-size: 16px;
+        height: 40px;
+
+    }
+    #interpolation2{
+        height: 50px;
+        line-height: 50px;
+        font-size: 16px;
+
+    }
+    #interpolation3{
+        margin-top: 10px;
+        height: 150px;
+        font-size: 16px;
+
+    }
+    #interpolation .interpolation-left{
+        font-size: 16px;
+        /*height: 50px;*/
+
+    }
+    #interpolation1 .interpolation-left{
+        font-size: 16px;
+        /*height: 50px;*/
+
+    }
+    #interpolation2 .interpolation-left{
+        font-size: 16px;
+        /*height: 20px;*/
+
+    }
+    #interpolation .interpolation-right{
+        font-size: 16px;
+
+    }
+    #interpolation1 .interpolation-right{
+        font-size: 16px;
+
+    }
+    #interpolation2 .interpolation-right{
+        font-size: 16px;
+
+    }
+    #interpolation3 .interpolation-left{
+        font-size: 16px;
+    }
+    #interpolation3 .beizhu{
+
+        font-size: 16px;
+        line-height: 30px;
+    }
+    #agree{
+        width: 100%;
+        margin-top:10px;
+
+    }
+    #agree .check{
+        width: 18px;
+        height: 18px;
+
+    }
+    #agree .already-agree{
+        /*margin-top: -10px;*/
+        margin-left: 10px;
+        font-size: 16px;
+
+
+    }
+    #btn .return{
+        width: 100%;
+        font-size: 20px;
+        height: 40px;
+        margin-top:-20px;
+    }
+
+    .return{
+        margin-top:-15px;
+
+        font-size:18px;
+    }
+    .delete{
+        margin-top:-15px;
+
+        font-size:18px;
+    }
+}

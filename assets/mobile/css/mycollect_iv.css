@@ -1,0 +1,230 @@
+*{
+    font-family: 微软雅黑;
+}
+#contant {
+    width: 100%;
+    background: white;
+    /*padding-top: 70px;*/
+
+}
+.container{
+    padding:0px;
+}
+.row{
+    margin: 0px;
+    width: 100%;
+}
+#mycollect-iv .dec{
+    height: 2px;
+    width: 100%;
+    background-color: #5ce1a8;
+    margin-top: -2px;
+}
+#mycollect-iv .tab{
+    background: white;
+    font-size: 24px;
+    line-height: 65px;
+    text-align: center;
+    padding: 0px;
+    border: solid 1px #eff3f5;
+}
+#mycollect-iv .tab1{
+    color: #5ce1a8;
+}
+#mycollect-iv .tab2{
+    color: #82888c;
+}
+#mycollect-iv .col-xs-6{
+    padding: 0px;
+    height: 65px;
+}
+#mycollect-iv .chevron-down1{
+    background: url(../img/mycollect_iv/chevron-down1.jpg);
+    width: 15px;
+    height: 9px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#mycollect-iv .chevron-down2{
+    background: url(../img/mycollect_iv/chevron-down2.jpg);
+    width: 15px;
+    height: 9px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#mycollect-iv .pic{
+    height: 210px;
+    /*width: 210px;*/
+    /*background: url(../img/mycollect_iv/logo.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    display: inline-block;
+    border: solid 1px #eff3f5;
+    float: left;
+    line-height: 210px;
+    text-align: center;
+}
+#mycollect-iv .pic img{
+    display: inline-block;
+}
+#mycollect-iv .sentence{
+    /*width: 400px;*/
+    height: 210px;
+    border-bottom: solid 1px #eff3f5;
+    float: right;
+}
+#mycollect-iv .iv-name{
+    font-size: 24px;
+    color: #4b565c;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+#mycollect-iv .company{
+    font-size: 20px;
+    color: #667687;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#mycollect-iv .n-people{
+    font-size: 20px;
+    color: #6f7d8b;
+    font-weight: 500;
+    margin-top: 5px;
+}
+#mycollect-iv .n-reputation{
+    font-size: 20px;
+    color: #4e6174;
+    font-weight: 500;
+    margin-top: 10px;
+    display: inline-block;
+}
+#mycollect-iv .price{
+    font-size: 26px;
+    color: #f86e6f;
+    font-weight: 500;
+    margin-left: 100px;
+    display: inline-block;
+    font-weight: bolder;
+}
+#mycollect-iv .unit{
+    font-size: 20px;
+    color: #fcacad;
+    font-weight: 500;
+    /*margin-top: 10px;*/
+    display: inline-block;
+}
+#mycollect-iv .row {
+    margin-bottom: 1px;
+}
+@media screen and (max-width: 622px){
+    #mycollect-iv .price{
+        margin-left: 0px;
+        float: right;
+        margin-top: 3px;
+    }
+}
+@media screen and (max-width: 479px){
+    #mycollect-iv .col-xs-6{
+        height: 35px;
+    }
+    #mycollect-iv .tab{
+        font-size: 16px;
+        line-height: 35px;
+    }
+    #mycollect-iv .chevron-down1{
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #mycollect-iv .chevron-down2{
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #mycollect-iv .pic{
+        height: 140px;
+    }
+    #mycollect-iv .sentence {
+        height: 140px;
+    }
+    #mycollect-iv .iv-name{
+        font-size: 18px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    #mycollect-iv .company{
+        font-size: 14px;
+    }
+    #mycollect-iv .n-people{
+        font-size: 14px;
+    }
+    #mycollect-iv .n-reputation{
+        font-size: 14px;
+    }
+    #mycollect-iv .price{
+        font-size: 16px;
+        margin-left: 0px;
+        float: right;
+        margin-top: 7px;
+    }
+    #mycollect-iv .unit{
+        font-size: 10px;
+    }
+    #mycollect-iv .pic{
+        line-height: 140px;
+
+    }
+}
+@media screen and (max-width: 319px){
+    #mycollect-iv .col-xs-6{
+        height: 30px;
+    }
+    #mycollect-iv .tab{
+        font-size: 12px;
+        line-height: 30px;
+    }
+    #mycollect-iv .chevron-down1{
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #mycollect-iv .chevron-down2{
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #mycollect-iv .pic{
+        height: 120px;
+    }
+    #mycollect-iv .sentence {
+        height: 120px;
+    }
+    #mycollect-iv .iv-name{
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #mycollect-iv .company{
+        font-size: 14px;
+    }
+    #mycollect-iv .n-people{
+        font-size: 14px;
+    }
+    #mycollect-iv .n-reputation{
+        font-size: 14px;
+    }
+    #mycollect-iv .price{
+        font-size: 14px;
+        margin-left: 0px;
+        float: right;
+        margin-top: 10px;
+    }
+    #mycollect-iv .unit{
+        font-size: 12px;
+    }
+    #mycollect-iv .pic{
+        line-height: 120px;
+
+    }
+}
+

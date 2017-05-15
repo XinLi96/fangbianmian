@@ -1,0 +1,205 @@
+/**
+ * Created by lenovo on 2016/12/4.
+ */
+.container{
+    width: 1170px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+body{
+    background: #eff3f5;
+}
+
+/*--------header开始-------------*/
+#header{
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+}
+/*--------header结束-------------*/
+
+
+
+
+
+
+/*--------search开始-------------*/
+#search{
+    height: 96px;
+    position: relative;
+}
+#search-icon{
+    position: absolute;
+    top: 40px;
+    right: 343px;
+}
+#search-input{
+    width: 570px;
+    border:2px solid #a8efd1;
+    position: absolute;
+    top: 25px;
+    left: 307px;
+    height: 50px;
+}
+
+/*--------search结束-------------*/
+
+
+
+
+/*--------pic开始-------------*/
+#pic{
+    height: 100px;
+    position: relative;
+    padding: 0;
+}
+#background{
+    height: 100px;
+}
+/*--------pic结束-------------*/
+
+
+
+
+
+/*--------select开始-------------*/
+
+#select{
+    height: 67px;
+    position: relative;
+}
+#select1{
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+#select2{
+    position: absolute;
+    left: 300px;
+    top: 15px;
+}
+#select3{
+    position: absolute;
+    top: 15px;
+    right: 300px;
+}
+.form-control{
+    width: 270px;
+    display: inline-block;
+    margin: 0 auto;
+    line-height: 35px;
+    height: 35px;
+}
+/*--------select结束-------------*/
+
+
+
+
+/*--------pics开始-------------*/
+#pics{
+    /*height: 1292px;*/
+}
+#astutor{
+    position: absolute;
+    top: 28px;
+    right: 495px;
+    height: 45px;
+    width: 180px;
+    opacity: 0.8;
+}
+.banner{
+    height: 293px;
+    position: relative;
+    margin-right: 30px;
+    width: 270px;
+    margin-bottom: 30px;
+    padding: 0;
+}
+.right{
+    margin-right: 0;
+}
+.name,.company,.good-count{
+    position:absolute;
+    left: 14px;
+}
+.company,.good-count,.interviews-count{
+    font-size: 12px;
+}
+.name{
+    font-size: 14px;
+    bottom:53px;
+}
+.company{
+    bottom: 31px;
+}
+.good-count{
+    bottom: 15px;
+}
+.interviews-count{
+    position:absolute;
+    bottom: 15px;
+    right: 11px;
+}
+.red{
+    position: absolute;
+    right: 9px;
+    bottom: 51px;
+}
+.red-count{
+    font-size: 20px;
+    color:red;
+}
+.red-subsidiary{
+    color:red;
+    font-size: 10px;
+}
+/*--------pics结束-------------*/
+
+
+
+
+/*--------tab开始-------------*/
+
+#tab{
+    height: 57px;
+    text-align: center;
+    line-height: 57px;
+    font-size: 25px;
+}
+/*--------tab结束-------------*/
+
+
+
+
+/*--------footer开始-------------*/
+
+#footer{
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 25px;
+}
+/*--------footer结束-------------*/
+
+
+.container,.row{
+    width: 1170px;
+}
+.row{
+    margin: 0;
+}
+.photo{
+    width: 270px;
+    height: 210px;
+}
+#tab strong,a{
+    margin-left: 12px;
+}

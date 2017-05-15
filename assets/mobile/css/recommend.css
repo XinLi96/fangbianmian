@@ -1,0 +1,430 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul ,li{
+    list-style: none;
+}
+.container{
+    width: 100%;
+    /*	background: #ccc;*/
+
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    /*background-color: pink;*/
+}
+.zhuti{
+    margin-top: 30px;
+    position: relative;
+}
+
+#company{
+    width: 100%;
+    height: 212px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 15px;
+}
+
+.job{
+    font-size: 42px;
+    font-family: "微软雅黑";
+    color: rgb(16, 34, 48);
+}
+.price{
+    font-size: 42px;
+    font-family: "微软雅黑";
+    color: rgb(248, 110, 111);
+}
+.money{
+    font-size: 38px;
+    font-family: "微软雅黑";
+    color: rgb(248, 110, 111);
+}
+.people ,.times ,.comment{
+    font-size: 24px;
+    font-family: "微软雅黑";
+    color: rgb(153, 154, 168);
+
+}
+.people ,.times{
+    margin-right: 125px;
+}
+.job{
+    margin-top: 30px;
+
+}
+.mark{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#xia{
+    width:100%;
+    /*height: 735px;*/
+    /*margin: 0 auto;*/
+}
+.request{
+    width:100%;
+    height: 210px;
+    /*padding-top: 20px;*/
+    border-bottom: 1px solid #e4e4e4;
+
+
+
+
+}
+
+.request-title{
+    font-size: 42px;
+    font-family: "微软雅黑";
+    color: rgb(60, 89, 102);
+    text-align: center;
+    /*padding-top: 15px;*/
+}
+
+.sex ,.age{
+    font-size: 34px;
+    font-family: "微软雅黑";
+    color: rgb(106, 106, 110);
+    margin-top:15px;
+}
+.left{
+    margin-right: 360px;
+}
+.right{
+    margin-left: -40px;
+}
+.learn{
+    width:100%;
+    height: 181px;
+    border-bottom: 1px solid #e4e4e4;
+    /*border-bottom: 1px solid #000;*/
+
+
+}
+.learn-request{
+    font-size: 38px;
+    font-family: "微软雅黑";
+    color: rgb(60, 89, 102);
+    padding-top: 15px;
+    /*  padding-bottom: 15px;*/
+}
+.college ,.computer{
+    font-size: 34px;
+    font-family: "微软雅黑";
+    color: rgb(111, 110, 120);
+    margin-top: 5px;
+}
+.introduce{
+    height: 323px;
+    width:100%;
+    border-bottom: 1px solid #e4e4e4;
+    /*border-bottom: 1px solid #000;*/
+
+}
+.project-introduce{
+    font-size: 38px;
+     font-family: "FZLTZHK";
+    font-family: "微软雅黑";
+    color: rgb(60, 89, 102);
+    padding-top: 15px;
+
+}
+.project-name ,.project-position ,.project-time ,.project-description{
+    font-size: 36px;
+    font-family: "微软雅黑";
+    color: rgb(105, 104, 116);
+    margin-top: 2px;
+}
+.collect{
+    width:100%;
+    /*height: 79px;*/
+    /*	background: yellow;*/
+    border: 2px solid  rgb(91, 224, 167);
+}
+.keep{
+    width:50%;
+    /*height: 79px;*/
+    font-size: 42px;
+    text-align: center;
+    /*line-height: 79px;*/
+    float: left;
+    font-family: "微软雅黑";
+    color: rgb(91, 224, 167);
+    display: block;
+    cursor: pointer;
+}
+.pay{
+    width:50%;
+    /*height: 79px;*/
+    text-align: center;
+    /*line-height: 79px;*/
+    font-size: 42px;
+    float: right;
+    font-family: "微软雅黑";
+    color: rgb(255, 255, 255);
+    background: rgb(91, 224, 167);
+    cursor: pointer;
+}
+    @media screen and (max-width: 768px) {
+    .zhuti{
+        width:100%;
+    }
+        .picture{
+            width:100%;
+        }
+        .picture img{
+            width: 100%;
+        }
+        #company{
+            width: 84%;
+            margin:0 auto;
+        }
+        .people ,.times{
+            margin-right: 90px;
+        }
+        #xia{
+            width: 84%;
+            margin: 0 auto;
+            margin-top:10px;
+        }
+        .sex ,.age{
+            font-size : 26px;
+        }
+        .left{
+            margin-right: 210px;
+        }
+        .right{
+            margin-left: -40px;
+        }
+        .college ,.computer{
+            font-size: 26px;
+        }
+        .project-name ,.project-time ,.project-position ,.project-description{
+            font-size: 26px;
+        }
+
+        .collect{
+            width: 84%;
+            margin: 0 auto;
+            margin-top: 10px;
+            height:70px;
+            line-height:70px;
+
+        }
+        .keep ,.pay{
+            font-size: 26px;
+            /*margin-top:-10px;*/
+        }
+        .introduce ,.request{
+            font-size: 30px;
+        }
+
+
+    }
+
+    @media screen and (max-width: 480px){
+
+        .zhuti{
+            width:100%;
+            position: relative;
+        }
+        #company{
+            width:84%;
+            height: 150px;
+            margin:0 auto;
+        }
+        #company .job{
+            font-size: 24px;
+        }
+        #company .price{
+            font-size: 24px;
+        }
+        #company .money{
+            font-size: 22px;
+        }
+        .people ,.times ,.comment{
+           font-size: 16px;
+        }
+        .people ,.times{
+            margin-right: 15px;
+        }
+
+
+
+
+
+
+
+        #xia{
+            width: 100%;
+            /*height: 500px;*/
+           margin: 0 auto;
+            margin-left:33.5px;
+            margin-top:10px;
+        }
+        .request{
+            width: 84%;
+            height:120px;
+        }
+        .request-title{
+            font-size: 22px;
+        }
+        .sex ,.age{
+            font-size : 16px;
+        }
+        .left{
+            margin-right: 110px;
+        }
+        .right{
+            margin-left: -20px;
+        }
+
+
+
+        .learn-request{
+            font-size: 22px;
+        }
+
+        .learn{
+            width:84%;
+            height: 110px;
+        }
+
+        .college ,.computer{
+            font-size: 16px;
+        }
+
+        .introduce{
+            width: 84%;
+            height: 200px;
+        }
+        .project-introduce{
+            font-size: 22px;
+        }
+        .project-name ,.project-time ,.project-position ,.project-description{
+            font-size: 16px;
+        }
+
+
+
+
+
+        .collect{
+            width: 84%;
+          margin: 0 auto;
+            margin-top: 10px;
+            height:50px;
+            line-height:50px;
+
+        }
+        .keep ,.pay{
+            font-size: 18px;
+
+        }
+
+    }
+    @media screen and (max-width: 320px){
+        .zhuti{
+            width:100%;
+            position: relative;
+        }
+        #company{
+            width:84%;
+            height: 100px;
+            margin:0 auto;
+        }
+        #company .job{
+            font-size: 16px;
+        }
+        #company .price{
+            font-size: 16px;
+        }
+        #company .money{
+            font-size: 14px;
+        }
+        .people ,.times ,.comment{
+            font-size: 8px;
+        }
+        .people ,.times{
+            margin-right: 10px;
+        }
+
+
+
+
+
+
+
+        #xia{
+            width: 100%;
+            /*height: 500px;*/
+            margin: 0 auto;
+            margin-left:33.5px;
+            margin-top:10px;
+        }
+        .request{
+            width: 84%;
+            height:100px;
+        }
+        .request-title{
+            font-size: 14px;
+        }
+        .sex ,.age{
+            font-size : 8px;
+        }
+        .left{
+            margin-right: 80px;
+        }
+        .right{
+            margin-left: -15px;
+        }
+
+
+
+        .learn-request{
+            font-size: 14px;
+        }
+
+        .learn{
+            width:84%;
+            height: 90px;
+        }
+
+        .college ,.computer{
+            font-size: 8px;
+        }
+
+        .introduce{
+            width: 84%;
+            height: 160px;
+        }
+        .project-introduce{
+            font-size: 14px;
+        }
+        .project-name ,.project-time ,.project-position ,.project-description{
+            font-size: 8px;
+        }
+
+
+
+
+
+        .collect{
+            width: 84%;
+            margin: 0 auto;
+            margin-left:33.5px;
+            margin-top: 10px;
+            height:30px;
+            line-height:30px;
+
+        }
+        .keep ,.pay{
+            font-size: 10px;
+
+        }
+
+    }

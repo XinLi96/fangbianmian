@@ -1,0 +1,426 @@
+/**
+ * Created by lenovo on 2016/12/4.
+ */
+*{
+    margin: 0;
+    padding: 0;
+}
+ol,ul,li{
+    list-style: none;
+}
+img{
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+body{
+    background: #eff3f5;
+}
+
+/*--------header开始-------------*/
+#header{
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+}
+/*--------header结束-------------*/
+
+
+
+
+
+
+/*--------search开始-------------*/
+#search{
+    height: 96px;
+    position: relative;
+}
+#search-icon{
+    position: absolute;
+    top: 40px;
+    right: 343px;
+}
+#search-input{
+    width: 570px;
+    border:2px solid #a8efd1;
+    position: absolute;
+    top: 25px;
+    left: 307px;
+    height: 50px;
+}
+
+/*--------search结束-------------*/
+
+
+
+
+/*--------pic开始-------------*/
+#pic{
+    height: 100px;
+    position: relative;
+    padding: 0;
+}
+#background{
+    height: 100px;
+}
+/*--------pic结束-------------*/
+
+
+
+
+
+/*--------select开始-------------*/
+
+#select{
+    height: 67px;
+    position: relative;
+}
+#select1{
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+#select2{
+    position: absolute;
+    left: 300px;
+    top: 15px;
+}
+.form-control{
+    width: 270px;
+    display: inline-block;
+    margin: 0 auto;
+    line-height: 35px;
+    height: 35px;
+}
+/*--------select结束-------------*/
+
+
+
+
+
+
+/*--------select-company开始-------------*/
+#select-company{
+    position: relative;
+    height: 115px;
+    overflow: hidden;
+}
+#content img{
+
+    float: left;
+}
+#mask{
+    height: 90px;
+    position: absolute;
+    bottom: 22px;
+    width: 3000px;
+    margin-left: 34px;
+}
+#content{
+    height: 90px;
+    position: absolute;
+    width: 3000px;
+    left: 0;
+}
+#content img{
+    margin-right: 26px;
+}
+#arrow{
+    width: 100%;
+    position: absolute;
+    height: 90px;
+    bottom: 22px;
+}
+.img-left{
+    position: absolute;
+    left: 0;
+}
+.img-right{
+    position: absolute;
+    right: 0;
+}
+/*--------select-company结束-------------*/
+
+
+
+
+/*--------pics开始-------------*/
+#pics{
+    height: 1094px;
+}
+#astutor{
+    position: absolute;
+    top: 28px;
+    right: 495px;
+    height: 45px;
+    width: 180px;
+    opacity: 0.8;
+}
+.banner{
+    height: 336px;
+    position: relative;
+    padding: 0;
+    margin-right: 30px;
+    width: 270px;
+    margin-bottom: 30px;
+}
+.right{
+    margin-right: 0;
+}
+.name,.company,.good-count{
+    position:absolute;
+    left: 14px;
+}
+.company,.good-count,.interviews-count{
+    font-size: 12px;
+}
+.name{
+    font-size: 14px;
+    bottom:96px;
+}
+.company{
+    bottom: 74px;
+}
+.good-count{
+    bottom: 54px;
+}
+.show-button{
+    width: 138px;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #f7f9fa;
+    color:#3fcb90;
+    border:0;
+    font-size: 14px;
+}
+.help-button{
+    width: 132px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #5ce1a8;
+    color:#f4fdf9;
+    border: 0;
+    font-size: 14px;
+}
+/*--------pics结束-------------*/
+
+
+
+
+/*--------tab开始-------------*/
+
+#tab{
+    height: 57px;
+    text-align: center;
+    /*line-height: 57px;*/
+    font-size: 25px;
+}
+
+/*--------tab结束-------------*/
+
+
+
+
+/*--------footer开始-------------*/
+
+#footer{
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    font-size: 25px;
+}
+/*--------footer结束-------------*/
+
+/*********内推弹层开始**************/
+.modal-dialog{
+    width: 800px;
+}
+.modal-header{
+    border-bottom: 0;
+    text-align: center;
+}
+.modal-footer{
+    border-top: 0;
+}
+.modal-title{
+    font-size: 30px;
+    color: #6a6a6e;
+}
+.close-button{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: #23c17d;
+    border: 1px solid #23c17d;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 30px;
+}
+.modal-body{
+    width: 680px;
+    margin: 0 auto;
+    font-size: 16px;
+    padding: 0;
+    border-bottom: 1px solid #d2d4d5;
+}
+.order-modal-title{
+    display: inline-block;
+    width: 80px;
+    margin-left: 125px;
+    margin-right: 80px;
+}
+.word-spacing-two{
+    letter-spacing: 31px;
+}
+.word-spacing-three{
+    letter-spacing: 8px;
+}
+.order-modal-item{
+    position: relative;
+}
+.order-modal-input{
+    position: absolute;
+    bottom: 0;
+    width: 190px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.textarea{
+    vertical-align: top;
+    width: 340px;
+    height: 70px;
+    border: 1px solid #ccc;
+    line-height: inherit;
+    resize: none;
+}
+.checkbox{
+    position: absolute;
+    top: -6px;
+    left: 1px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.checkbox-lable{
+    position: relative;
+    top: 3px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #49d599;
+    color: #49d599;
+    display: inline-block;
+}
+.modal-footer{
+    margin-top: 0;
+    position: relative;
+    text-align: center;
+    padding-bottom: 36px;
+}
+.modal-footer-condition{
+    position: relative;
+    margin-bottom: 15px;
+}
+.order-modal-submit{
+    position: relative;
+    left: -24px;
+    width: 172px;
+    height: 42px;
+    border: 1px solid #58d7a0;
+    line-height: 40px;
+    text-align: center;
+    color: #58d7a0;
+    background-color: #fff;
+}
+.back{
+    position: relative;
+    left: -70px;
+    color:#333;
+}
+.back:hover{
+    text-decoration: none;
+    color: #58d7a0;
+}
+/*********内推弹层结束**************/
+
+
+/***********简历弹层开始************/
+.consume-dialog-item{
+    border-bottom: 1px solid #d2d4d5;
+}
+#job-seekers-name{
+    position: relative;
+}
+#job-seekers-name-info{
+    width: 520px;
+    float: left;
+}
+.job-seekers-name-info-item{
+    width: 250px;
+    display: inline-block;
+}
+#job-seekers-name-head{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 8px solid #d6effe;
+}
+.remark-content{
+    line-height: 30px;
+}
+#consume-dialog-footer{
+    padding: 20px 0;
+}
+#consume-dialog-footer-left{
+    width: 420px;
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+#consume-dialog-footer-right{
+    width: 260px;
+    float: right;
+}
+#consume-dialog-price{
+    margin-bottom: 20px;
+    float: right;
+}
+.money{
+    font-size: 30px;
+    color: #f86e6f;
+}
+.money-unit{
+    font-size: 14px;
+    color: #f86e6f;
+}
+#consume-dialog-btn-group{
+    height: 42px;
+    line-height: 42px;
+}
+#consume-dialog-footer-right .order-modal-submit{
+    position: static;
+    float: right;
+}
+#consume-dialog-footer-right .back{
+    position: static;
+}
+.modal-open {
+    overflow: initial !important;
+}
+/***********简历弹层结束************/
+.row{
+    margin: 0;
+    width: 1170px;
+}

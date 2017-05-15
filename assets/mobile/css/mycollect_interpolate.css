@@ -1,0 +1,266 @@
+*{
+    font-family: 微软雅黑;
+}
+#contant {
+    width: 100%;
+    background: white;
+    /*padding-top: 70px;*/
+
+}
+.container{
+    padding:0px;
+}
+.row{
+    margin: 0px;
+    width: 100%;
+}
+#interpolate .dec{
+    height: 2px;
+    width: 100%;
+    background-color: #5ce1a8;
+    margin-top: -2px;
+}
+#interpolate .tab{
+    background: white;
+    font-size: 24px;
+    line-height: 65px;
+    text-align: center;
+    padding: 0px;
+    border: solid 1px #eff3f5;
+}
+#interpolate .tab1{
+    color: #82888c;
+}
+#interpolate .tab2{
+    color: #5ce1a8;
+}
+#interpolate .col-xs-6{
+    padding: 0px;
+    height: 65px;
+}
+#interpolate .chevron-down1{
+    background: url(../img/mycollect_interpolate/chevron-down1.jpg);
+    width: 15px;
+    height: 9px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#interpolate .chevron-down2{
+    background: url(../img/mycollect_interpolate/chevron-down2.jpg);
+    width: 15px;
+    height: 9px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#interpolate .pic{
+    height: 210px;
+    /*width: 210px;*/
+    /*background: url(../img/mycollect_interpolate/logo.jpg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    display: inline-block;
+    border: solid 1px #eff3f5;
+    float: left;
+    line-height: 210px;
+    text-align: center;
+}
+#interpolate .pic img{
+    display: inline-block;
+}
+#interpolate .sentence{
+    /*width: 400px;*/
+    height: 210px;
+    border-bottom: solid 1px #eff3f5;
+    float: right;
+}
+#interpolate .company{
+    font-size: 23px;
+    color: #4b565c;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: inline-block;
+}
+#interpolate .cut{
+    font-size: 23px;
+    color: #4b565c;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: inline-block;
+}
+#interpolate .position{
+    font-size: 23px;
+    color: #4b565c;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: inline-block;
+}
+#interpolate .iv-nickname{
+    font-size: 20px;
+    color: #667687;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#interpolate .count{
+    font-size: 20px;
+    color: #6f7d8b;
+    font-weight: 500;
+    margin-top: 5px;
+}
+#interpolate .n-reputation{
+    font-size: 20px;
+    color: #4e6174;
+    font-weight: 500;
+    margin-top: 10px;
+    display: inline-block;
+}
+#interpolate .price{
+    font-size: 26px;
+    color: #f86e6f;
+    font-weight: 500;
+    margin-left: 100px;
+    display: inline-block;
+    font-weight: bolder;
+}
+#interpolate .unit{
+    font-size: 20px;
+    color: #fcacad;
+    font-weight: 500;
+    /*margin-top: 10px;*/
+    display: inline-block;
+}
+#interpolate .row {
+    margin-bottom: 1px;
+}
+@media screen and (max-width: 622px){
+    #interpolate .price{
+        margin-left: 0px;
+        float: right;
+        margin-top: 3px;
+    }
+}
+@media screen and (max-width: 479px){
+    #interpolate .col-xs-6{
+        height: 35px;
+    }
+    #interpolate .tab{
+        font-size: 16px;
+        line-height: 35px;
+    }
+    #interpolate .chevron-down1{
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #interpolate .chevron-down2{
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #interpolate .pic{
+        height: 140px;
+    }
+    #interpolate .sentence {
+        height: 140px;
+    }
+    #interpolate .company{
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #interpolate .cut{
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #interpolate .position{
+        font-size: 18px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #interpolate .iv-nickname{
+        font-size: 14px;
+    }
+    #interpolate .count{
+        font-size: 14px;
+    }
+    #interpolate .n-reputation{
+        font-size: 14px;
+    }
+    #interpolate .price{
+        font-size: 16px;
+        margin-left: 0px;
+        float: right;
+        margin-top: 7px;
+    }
+    #interpolate .unit{
+        font-size: 10px;
+    }
+    #interpolate .pic{
+        line-height: 140px;
+
+    }
+}
+@media screen and (max-width: 385px){
+    #interpolate .col-xs-6{
+        height: 30px;
+    }
+    #interpolate .tab{
+        font-size: 12px;
+        line-height: 30px;
+    }
+    #interpolate .chevron-down1{
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #interpolate .chevron-down2{
+        margin-bottom: 2px;
+        margin-left: 5px;
+    }
+    #interpolate .pic{
+        height: 120px;
+    }
+    #interpolate .sentence {
+        height: 120px;
+    }
+    #interpolate .company{
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #interpolate .cut{
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #interpolate .position{
+        font-size: 14px;
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    #interpolate .iv-nickname{
+        font-size: 14px;
+    }
+    #interpolate .count{
+        font-size: 14px;
+    }
+    #interpolate .n-reputation{
+        font-size: 14px;
+    }
+    #interpolate .price{
+        font-size: 14px;
+        margin-left: 0px;
+        float: right;
+        margin-top: 10px;
+    }
+    #interpolate .unit{
+        font-size: 12px;
+    }
+    #interpolate .pic{
+        line-height: 120px;
+
+    }
+}

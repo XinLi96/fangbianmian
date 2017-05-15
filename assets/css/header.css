@@ -1,0 +1,170 @@
+*{
+    font-family: '微软雅黑';
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding-top: 60px;
+    /*overflow: hidden;*/
+}
+header .down-menu{
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+input:focus{
+    outline: none;
+}
+button:focus{
+    outline: none;
+
+}
+.btn{
+    padding: 0;
+}
+.container{
+    padding: 0;
+}
+.nav li a{
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #2a4053;
+}
+.nav li{
+    margin-top: 5px;
+}
+@media screen and (max-width: 1170px){
+    .nav .wrapper{
+        width: 970px;
+    }
+}
+@media screen and (max-width: 768px){
+    .navbar-nav{
+        float: right;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .navbar-nav li{
+        float: left;
+    }
+    .nav li{
+        margin-top: 10px;
+    }
+    .nav .wrapper{
+        width: 750px;
+    }
+}
+.container .nav li a:hover{
+    color: #67e3ae;
+    background: #fff;
+}
+.container .nav li a:focus{
+    color: #2a4053;
+    background: #fff;
+    outline:none;
+}
+.nav{
+    background: #ffffff;
+    min-height: 60px;
+}
+
+.nav .dropdown{
+    line-height: 4;
+    margin-top: -2px;
+    margin-right: 24px;
+    height: 60px;
+    position: relative;
+}
+#dropdownMenu1{
+    background: #fff;
+    padding-right: 26px;
+    padding-left: 26px;
+    height: 100%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+#dropdownMenu1:hover,.nav .interview a:hover{
+    outline: none;
+    border-left: 1px solid #eaeced;
+    border-right: 1px solid #eaeced;
+    border-bottom: 2px solid #5ce1a8;
+}
+.nav .interview{
+    margin-top: 0;
+    border: none;
+    background: #fff;
+    padding-right: 26px;
+    padding-left: 26px;
+    height: 100%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.nav .interview .board{
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding-top: 20px;
+    padding-bottom: 21.6px;
+}
+.logo{
+    height: 22px;
+    width: 91px;
+    float: left;
+    background:url("../img/index/sprite.png") no-repeat 0 0;
+    margin-top: 19px;
+}
+.nav .interview{
+    position: relative;
+}
+.nav .down-menu{
+    min-width: 80px;
+    border-color: #eaeced;
+    position: absolute;
+    background: #fff;
+    display: none;
+}
+.nav .down-menu li a:hover{
+    text-decoration: none;
+}
+.nav .interview .down-menu a{
+    display: inline-block;
+    width: 91px;
+    position: absolute;
+    margin-top: 20px;
+}
+.nav .interview .down-menu li{
+    color: #6f7b87;
+    background: #fff;
+    height: 56px;
+    width: 91px;
+}
+.nav .down-menu li{
+    margin-top: 0;
+    margin-bottom: -15px;
+}
+.nav .down-menu>li>a{
+    text-align: center;
+    color: #6f7b87;
+    font-size: 14px;
+    padding-left: 14px;
+    padding-right: 13px;
+}
+.nav .interview .down-menu a:hover{
+    border:none;
+}
+
+.nav #user{
+    font-size: 14px;
+    color: black;
+}
+#use:hover span{
+    color:  #67e3ae;
+
+}
+
+#use:active{
+    color:  #67e3ae;
+}

@@ -1,0 +1,386 @@
+/* CSS Document */
+body {
+    padding-top: 70px;
+    background: #DBE1E0
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background:#DBE1E0;
+}
+#container{
+    width: 1170px;
+    margin: 0 auto;
+}
+#neck{
+    height: 380px;
+    background:#DBE1E0;
+}
+#left{
+    width: 380px;
+    float:left;
+}
+#left img{
+    margin-left: 30px;
+    width: 380px;
+    height: 380px;
+    padding: 0;
+}
+#right{
+    margin-right:30px;
+    width: 680px;
+    height: 380px;
+    float:right;
+    border: 1px solid #d9dbdc;
+    background: #ffffff;
+
+}
+#right-top{
+    width: 679px;
+    height: 70px;
+    background: rgb(90,195,235);
+    font-size: 2rem;
+    text-indent: 90px;
+    color: aliceblue;
+    line-height: 70px;
+    font-family: "微软雅黑";
+
+}
+.right-top-nav{
+    padding: 0;
+    margin-left: 7px;
+}
+#right-body{
+    position: relative;
+    width: 100%;
+}
+
+
+#right-body ul li{
+    padding-top: 10px;
+    padding-left: 10px;
+    color:grey;
+
+}
+.item{
+    margin-left:90px;
+    margin-top: 10px;
+    color: #777777;
+    font-family: "微软雅黑";
+
+}
+#contant .glyphicon-heart {
+    color: #18B6E3;
+    margin-left: 2px;
+
+}
+#right-body ul{
+    width: 100%;
+}
+.ys1{
+    position: absolute;
+    left:215px;
+    top:0px;
+    font-weight: bold;
+    color: #f86e6f;
+    font-size: 2.5rem;
+}
+.ys2{
+    left:265px;
+    margin-top: 5px;
+    position: absolute;
+    color:#f86e6f;
+    font-size: 1rem;
+}
+.ys3{
+    position: absolute;
+    left:215px;
+}
+.ys4{
+    position: absolute;
+    left:450px;
+}
+#interview{
+    position: absolute;
+    left:185px;
+    top:125px;
+}
+.ys5{
+    width: 115px;
+    height: 35px;
+    cursor: pointer;
+    float:left;
+    margin-left: 7px;
+    border: 1px solid #AAA;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 2px;
+}
+#right-bottom{
+    position: relative;
+}
+#right-bottom-left{
+    cursor: pointer;
+    position: absolute;
+    left:130px;
+    top:65px;
+    float: left;
+    height: 45px;
+    width: 200px;
+    border: 1px solid #5ce1a8;
+    line-height: 45px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "微软雅黑";
+    color:#5ce1a8;
+}
+#right-bottom-right{
+    cursor: pointer;
+    position: absolute;
+    left:405px;
+    top:65px;
+    float: left;
+    height: 45px;
+    width: 200px;
+    line-height: 45px;
+    text-align: center;
+    background: #5ce1a8;
+    color:#fff;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    border: 1px solid #9F9;
+}
+#under{
+
+}
+#under-top ul li a{
+    float:left;
+    color: #AAA;
+    padding:0 40px;
+    line-height: 55px;
+    font-size: 20px;
+    font-family: 黑体;
+    font-weight: bold;
+}
+#contant{
+    position: relative;
+}
+#contant .container{
+    /*position: absolute;*/
+    margin-top:50px;
+    width: 1170px;
+
+}
+#course .tencent {
+    padding: 0;
+}
+
+#course .interview {
+    height: 380px;
+    padding: 0;
+    background: #ffffff;
+    border: solid 1px #cccccc;
+
+}
+
+#course .teacher-name {
+    width: 100%;
+    height: 70px;
+    background: #494AD5;
+    font-size: 2.5rem;
+    text-indent: 9rem;
+    color: aliceblue;
+    line-height: 70px;
+}
+
+#course .price {
+    color: #E50F34;
+    font-size: 3rem;
+}
+
+.item {
+    margin-left: 90px;
+    margin-top:10px;
+    color: #777777;
+    font-family: "微软雅黑";
+}
+
+#course .glyphicon-heart {
+    color: #18B6E3;
+}
+
+#course .job {
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    border: solid 1px #ccc;
+}
+
+#course .item .active {
+    border-color: #65B67A;
+}
+
+#course .btn.collect {
+    border-color: #65B67A;
+    color: #65B67A;
+
+}
+
+#course .btn.order {
+    background: #65B67A;
+    color: #ffffff;
+}
+
+/*#course .btn-group{*/
+/*margin: 0 50px;*/
+/*}*/
+/*导师介绍区*/
+#teacher{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+#teacher .nav-tabs {
+    /*margin-top: 40px;*/
+    /*border-bottom: solid 1px #cccccc;*/
+    /*background: #f9f9f9;*/
+}
+
+#teacher .nav-tabs li {
+    color: #777777;
+
+}
+
+#teacher .nav-tabs a {
+    color: #777777;
+    border-radius: 0;
+    padding: 10px 50px;
+    display: inline-block;
+
+}
+
+#teacher .nav-tabs a:hover {
+    color: #65B67A;
+    background: #f9f9f9;
+    border-color: #f9f9f9;
+    border-bottom: solid 2px #65B67A;
+}
+
+#teacher .nav-tabs .active a {
+    border: none;
+    border-bottom: solid 2px #65B67A;
+
+    color: #65B67A;
+    background-color: #f9f9f9;
+    /*border-color: #f9f9f9;*/
+    /*border-bottom: solid 2px #65B67A;*/
+}
+
+/*#teacher .nav-tabs li:hove{*/
+/*border-bottom: solid 2px #65B67A;*/
+
+/*}*/
+#teacher .navbar-text {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+#teacher .row {
+    background: #ffffff;
+    border-bottom: solid 1px #cccccc;
+}
+
+#teacher .underline {
+    border-bottom: solid 1px #cccccc;
+
+
+}
+
+#teacher .name {
+    color: #2a6496;
+    margin-bottom: 20px;
+}
+
+#teacher-desc .portrait {
+    border: 7px solid #46b8da;
+}
+
+#teacher-desc .image {
+    margin-left: 20px;
+}
+
+#teacher-desc .experience {
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+#teacher-desc .text {
+    line-height: 25px;
+}
+
+.des{
+    font-size: 18px;
+    font-family: "微软雅黑";
+    display: inline-block;
+}
+.good,.mid,.bad,.forward{
+    float: left;
+}
+.count{
+    display: inline-block;
+    margin-left: 42px;
+    color:#ff6400;
+    font-size: 36px;
+}
+.star{
+    display: inline-block;
+    margin-left: 40px;
+    margin-top: -205px;
+}
+.pinglun{
+    display: inline-block;
+    width: 500px;
+    margin-left: 68px;
+}
+.mid{
+    margin-left: 30px;
+}
+.bad{
+    margin-left: 36px;
+}
+.forward{
+    margin-left: 29px;
+}
+.name_iv{
+
+}
+.data_iv{
+
+
+}
+.row{
+    margin: 0;
+
+}
+#teacher .row{
+    border-bottom: 0;
+}
+.right div{
+    text-align: center;
+}
+.title{
+    margin-left: 85px;
+    margin-bottom: 10px;
+}

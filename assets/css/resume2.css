@@ -1,0 +1,708 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background: rgb(239,243,245);
+}
+ul{
+    list-style: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+/******侧边框开始*****/
+
+#continer{
+    width:1170px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+#side{
+    height: 336px;
+    width: 320px;
+    background: white;
+    padding:29px 0 0 0;
+    /*float: left;*/
+    position: fixed;
+}
+#sideul{
+    padding: 0;
+}
+#sideul li{
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    text-align: center;
+
+}
+#sideul li:hover{
+    cursor:pointer;
+}
+#sideul .spans{
+    width:14px;
+    height:24px;
+    line-height: 24px;
+    display: inline-block;
+    margin-right: 27px;
+
+}
+
+#sideul li a{
+    text-decoration: none;
+    color: rgb(106,110,103);
+}
+#sideul .active{
+
+    color: rgb(191,241,217);
+}
+.right-hover{
+    background-image: url("../img/resume/spirit.png");
+    height: 50px;
+    width:4px;
+    display: none;
+    position: absolute;
+    right: 0;
+}
+#sideul .showed{
+    display: inline-block;
+}
+/******侧边框结束*****/
+/*******基本信息开始*****/
+#content{
+    width: 800px;
+    background: white;
+
+    position: relative;
+    left: 370px;
+}
+#content .wrapper{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#base-message{
+
+    height: 118px;
+    border-bottom: 1px solid #e3e6e8;
+}
+.base-img{
+    width: 800px;
+    margin-left: -30px;
+}
+#circle-img{
+    width: 138px;
+    height: 138px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 90px;
+    top:-60px;
+    border: 8px solid rgba(249,250,251,0.4);
+   /* border-right-color:rgba(249,250,251,.3);
+    border-top-color:rgba(249,250,251,.3);*/
+    border-radius: 50%;
+    background:url("../img/resume/circleimg.png")  ;
+    background-position: center;
+}
+#check-span{
+    border: 1px solid #49d599;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-top: 0;
+    border: 0;
+    margin-right: 10px;
+
+
+}
+
+#base-message h1{
+    height: 24px;
+    line-height: 24px;
+    margin-top: 19px;
+    margin-bottom: 14px;
+}
+#base-message .h1-span1{
+    margin-left: 230px;
+    font-size: 22px;
+    color: #335061;
+    font-weight: bloder;
+}
+.span-right1{
+
+    position: absolute;
+    right: 63px;
+    height: 15px;
+
+
+}
+.span-right2{
+
+    position: absolute;
+    right: 66px;
+    height: 15px;
+    width: 148px;
+    margin-bottom: 0px;
+
+}
+.span-right3{
+
+    position: absolute;
+    right: 38px;
+    height: 15px;
+    width: 190px;
+    margin-bottom: 0px;
+
+}
+.span-left1{
+    display: inline-block;
+    width: 400px;
+    word-break: break-all;
+}
+.span-left2{
+    display: inline-block;
+    /*width: 500px;*/
+    word-break: break-all;
+}
+#base-message .h1-span2{
+
+    font-size: 12px;
+    color: #c1c4c5;
+    font-family: "Lantinghei SC";
+    margin-right: 10px;
+}
+
+.h1-icon1{
+    font-size: 12px;
+    color: #49d599;
+
+}
+.h1-icon2{
+    width: 12px;
+    height: 13px;
+    display: inline-block;
+    background-image: url("../img/resume/spirit.png");
+    background-position: -120px -5px;
+
+}
+
+#mes-ul{
+    width: 470px;
+    height: 16px;
+    margin-left: 230px;
+    padding: 0;
+}
+#mes-ul li{
+    float: left;
+    color: #737b7e;
+    font-size: 14px;
+}
+/*******基本信息结束*****/
+/********工作经历开始********/
+#work{
+    border-bottom: 1px solid #e3e6e8;
+}
+.simple-head{
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    margin: 0;
+    color: #484e52;
+    font-size: 20px;
+    font-weight: blod;
+
+}
+.simple-h2{
+    padding-left: 31px;
+    color: #484e52;
+    font-size: 18px;
+    margin: 0;
+
+
+}
+.simple-p1{
+    padding-top: 10px;
+    padding-left: 31px;
+    margin: 0;
+    font-size: 16px;
+    color: #a2a5a7;
+    /*word-break: break-all;*/
+}
+.simple-d1{
+    padding-left: 0px;
+}
+
+.simple-ul{
+    padding: 0;
+}
+
+.simple-li{
+    height: 100px;
+    width: 740px;
+    position: relative;
+
+}
+.simple-img{
+    padding: 20px 20px 20px 31px;
+    float: left;
+
+}
+.simple-li-right{
+    padding-top: 20px;
+    float: left;
+
+}
+
+
+.edit-p{
+    position: absolute;
+    right: 0;
+    top:20px;
+}
+
+.add-a{
+    text-decoration: none;
+    color: #5ce1a8;
+    cursor: pointer;
+}
+#work a:hover{
+    text-decoration: none;
+    color: #5ce1a8;
+}
+.edit-a{
+    text-decoration: none;
+    color: #5ce1a8;
+    cursor: pointer;
+}
+
+#work a:hover{
+    text-decoration: none;
+    color: #5ce1a8;
+}
+/********工作经历结束********/
+/*****教育经历开始*********/
+#education{
+    border-bottom: 1px solid #e3e6e8;
+
+}
+.add2-p,.add-p{
+    margin-top: 5px;
+    /*text-align: right;*/
+    float: right;
+
+}
+.add2-a{
+    text-decoration: none;
+    color: #5ce1a8;
+    cursor: pointer;
+}
+.edit2-p{
+    position: absolute;
+    right: 0;
+    top:20px;
+}
+.edit2-a{
+    text-decoration: none;
+    color: #5ce1a8;
+    cursor: pointer;
+}
+
+#education a:hover{
+    text-decoration: none;
+    color: #5ce1a8;
+}
+/*****教育经历结束*********/
+
+
+/*****自我介绍开始*********/
+#introuduct{
+    border-bottom: 1px solid #e3e6e8;
+    padding-bottom: 40px;
+}
+
+#intr-text{
+    margin-left:200px;
+}
+/*****自我介绍结束*********/
+/*****发布面试开始*********/
+#view {
+    border-bottom: 1px solid #e3e6e8;
+
+}
+.view-p{
+    color: #94a49d;
+    font-size: 14px;
+    margin: 10px 0;
+}
+#view-content{
+    padding-left:102px ;
+}
+.view-input{
+    height: 50px;
+    margin:0;
+    line-height: 50px;
+}
+.view-span{
+    font-size:14px ;
+    color:#b7c0bc ;
+    margin-left: 30px;
+}
+
+#view-content .view-job{
+    width: 80px;
+    display: inline-block;
+}
+
+#view-content .view-ipt{
+    margin-left: 90px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+
+}
+#view-content #phone-view{
+    margin-left: 46px;
+}
+.uls{
+    padding: 0;
+}
+.uls li{
+    margin-bottom: 10px;
+}
+.view-money{
+    margin-left: 30px;
+    font-size:14px ;
+    color:#b7c0bc ;
+}
+.money-ipt{
+    margin-left: 22px;
+    width: 177px;
+    height: 46px;
+    border: 0;
+    background: #f5f5f5;
+}
+#view-time{
+    margin-left: 17px;
+}
+#view  #time-ipt{
+    width: 538px;
+    height: 135px;
+    background: #f5f5f5;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    word-break: break-all;
+
+}
+#view-under{
+    margin-top: 15px;
+}
+#view-content #under-radio{
+    margin-left: 33px;
+}
+#understand{
+    margin-left: 25px;
+    color: #b4b4b4;
+    font-size: 14px;
+
+}
+#view-btn{
+    width: 180px;
+    height: 48px;
+    border: 2px solid #e4f1ec;
+    background: gray;
+    text-align: center;
+    color: white;
+    margin-left: 359px;
+}
+/*****发布面试结束*********/
+/*****弹出层开始*********/
+#mask-work,#mask2-work,#mask3-work,#mask4-work{
+
+    padding-bottom: 50px;
+    display: none;
+     border-bottom: 1px solid #e3e6e8;
+}
+.mask-form{
+    width: 500px;
+
+    margin-left:155px;
+    position: relative;
+
+}
+.mask-p{
+    height: 14px;
+    line-height: 14px;
+    color:#94a49d;
+    font-size: 14px;
+    margin: 10px 0 0 0 ;
+}
+
+.mask-img{
+    width: 127px;
+    height: 125px;
+    background: #f5f5f5;
+    position: absolute;
+    right: 0;
+    top:24px;
+
+}
+#mask4-work .mask-ipt,#mask2-work .mask-ipt,#work .mask-ipt{
+    width: 430px;
+    height: 45px;
+    background-color: #f5f5f5;
+    border: 0;
+    margin: 10px 0 0 0;
+    word-break: break-all;
+    padding-left: 10px;
+}
+.mask-textarea{
+    width: 390px;
+    background: #f5f5f5;
+    border: 0;
+    margin: 10px 0;
+    padding-top: 17px;
+    word-break: break-all;
+    text-indent: 32px;
+    color: #93a39c;
+}
+.shizijia{
+    font-size: 35px;
+    color: #d2d2d2;
+    /*text-align: center;*/
+    padding-top: 46px;
+    padding-left: 46px;
+    cursor: pointer;
+
+}
+
+.time-xian{
+    width: 45px;
+    display: inline-block;
+    padding-left: 4px;
+    margin-right: 6px;
+    margin-left: 8px;
+}
+#work .time-right,#work .time-left{
+    width: 185px;
+    height: 45px;
+    background-color: #f5f5f5;
+    border: 0;
+    margin: 10px 0;
+    word-break: break-all;
+    padding-left: 10px;
+}
+.mask-text{
+    /*width: 537px;*/
+    /*height: 134px;*/
+    margin-bottom: 0;
+}
+.mask-span1{
+    margin-left: 36px;
+    width: 28px;
+    /*display: inline-block;*/
+    font-size: 14px;
+    color: #909090;
+    float: left;
+
+}
+.mask-span1 a{
+    text-decoration: none;
+    color: #909090;
+    /*margin-top: 10px;*/
+}
+.mask-span2{
+    /*margin-left: 212px;*/
+    width: 29px;
+    /*display: inline-block;*/
+    font-size: 14px;
+    color: #dddddd;
+     float: right;
+    margin-right: 20px;
+
+}
+.mask-span2 a{
+    text-decoration: none;
+    color: #dddddd;
+    /*margin-top: 10px;*/
+    /*margin-top: 1px;*/
+}
+.mask-sub{
+    width: 178px;
+    height: 47px;
+    /*margin-left: 43px;*/
+    float: right;
+
+    padding: 0;
+    border: 1px;
+    background: #5ce1a8;
+    color: #f6fdfa;
+    margin-top: -10px;
+
+}
+.mask-bottom{
+    margin-top:20px;
+}
+/*****弹出层结束*********/
+
+#footer{
+    width: 100%;
+    height: 200px;
+    background: rgb(42,42,42);
+    /*clear: both;*/
+    position: absolute;
+    bottom:0;
+    display: none;
+
+}
+#change_info{/*编辑按钮*/
+/*    background-color: #00CC00;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;*/
+
+    margin-top: 1px;
+    margin-left: 15px;
+    color: #5ce1a8;
+    cursor: pointer;
+}
+
+
+
+/*.change_info{
+    width: 300px;
+    height: 30px;
+    float: left;
+    margin-left: 70px;
+    margin-top: 20px;
+}*/
+.change_head{
+    /*height: 220px;*/
+    display: none;
+    border-bottom: 1px solid #e3e6e8;
+    padding-top: 10px;
+    overflow: hidden;
+
+}
+.change_head .wrapper {
+    width: 600px;
+    margin-left: 80px;
+    padding-left: 0;
+    padding-right: 0;
+    position: relative;
+}
+.change_info span{
+    color: #8c9c95;
+    font-size: 14px;
+}
+  
+
+.change_head .normal{
+    width:380px;
+    height: 45px;
+    border:0;
+    background-color: #f5f5f5;
+    margin-top: 5px; 
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+#info_name2{
+    display: none;
+}
+
+.change_head .mask-bottom{
+    float: right;
+}
+#editor_sex,#editor_degree{
+    width: 380px;
+    height: 45px;
+    background-color: #f5f5f5;
+    border:0;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+
+/*上传图片*/
+.portrait{
+    position: absolute;
+    right: 30px;
+    top:28px;
+}
+ .portrait .input-upload-image, .portrait .upload-btn{
+    width: 128px;
+    height: 128px;
+    display: block;
+    position: absolute;
+   /* top:20px;
+    left:0;*/
+}
+  .portrait .input-upload-image{
+    z-index: 1;
+    border:none;
+    -webkit-opacity:0;
+    opacity: 0;
+
+}
+.portrait label{
+    margin-top: 150px;
+    margin-left: 40px;
+    color: #8c9c95;
+}
+.upload-btn{
+    z-index: 2;
+}
+   .events-pointer-none{
+    pointer-events: none;
+    cursor: pointer;
+}
+.show-result{
+    padding: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #3548cc;
+}
+.show-result .small{
+    font-size: 12px;
+    color:green;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    justify-content: center;
+    align-items:center;
+    border: 0;
+    display:none;
+}
+.overlay img {
+    width: 31px;
+    height: 31px;
+}
+/*上传图片结束*/
+.i{
+    color: red;
+    margin-left: 5px;
+}
+
+#company_list .ist{
+   width:430px;
+   height:45px;
+   background:#f5f5f5;
+   line-height: 45px;
+   text-indent: 20px;
+   border: 1px #ccc solid;
+}
